@@ -1,0 +1,1064 @@
+[2021-02-16 03:15:27,827] {scheduler_job.py:154} INFO - Started process (PID=85584) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:15:32,840] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 03:15:32,842] {logging_mixin.py:112} INFO - [2021-02-16 03:15:32,842] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:15:32,878] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:15:33,004] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 03:15:33,225] {scheduler_job.py:1294} INFO - Created <DagRun parse_goods @ 2021-02-15 00:00:00+00:00: scheduled__2021-02-15T00:00:00+00:00, externally triggered: False>
+[2021-02-16 03:15:33,238] {scheduler_job.py:759} INFO - Examining DAG run <DagRun parse_goods @ 2021-02-15 00:00:00+00:00: scheduled__2021-02-15T00:00:00+00:00, externally triggered: False>
+[2021-02-16 03:15:33,279] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 03:15:33,290] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: parse_goods.run_spider_goods 2021-02-15 00:00:00+00:00 [scheduled]> in ORM
+[2021-02-16 03:15:33,340] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.513 seconds
+[2021-02-16 03:18:20,119] {scheduler_job.py:154} INFO - Started process (PID=85692) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:18:25,135] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 03:18:25,136] {logging_mixin.py:112} INFO - [2021-02-16 03:18:25,136] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:18:25,168] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:18:25,250] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 03:18:25,273] {scheduler_job.py:759} INFO - Examining DAG run <DagRun parse_goods @ 2021-02-15 00:00:00+00:00: scheduled__2021-02-15T00:00:00+00:00, externally triggered: False>
+[2021-02-16 03:18:25,329] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 03:18:25,336] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: parse_goods.telegram_send_report 2021-02-15 00:00:00+00:00 [scheduled]> in ORM
+[2021-02-16 03:18:25,384] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.265 seconds
+[2021-02-16 03:21:06,120] {scheduler_job.py:154} INFO - Started process (PID=85757) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:21:11,131] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 03:21:11,133] {logging_mixin.py:112} INFO - [2021-02-16 03:21:11,133] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:21:11,161] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:21:11,215] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 03:21:11,242] {scheduler_job.py:759} INFO - Examining DAG run <DagRun parse_goods @ 2021-02-15 00:00:00+00:00: scheduled__2021-02-15T00:00:00+00:00, externally triggered: False>
+[2021-02-16 03:21:11,274] {logging_mixin.py:112} INFO - [2021-02-16 03:21:11,273] {dagrun.py:318} INFO - Marking run <DagRun parse_goods @ 2021-02-15 00:00:00+00:00: scheduled__2021-02-15T00:00:00+00:00, externally triggered: False> successful
+[2021-02-16 03:21:11,280] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 03:21:11,290] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.171 seconds
+[2021-02-16 03:23:25,661] {scheduler_job.py:154} INFO - Started process (PID=85798) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:23:30,678] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 03:23:30,680] {logging_mixin.py:112} INFO - [2021-02-16 03:23:30,679] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:23:30,710] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:23:30,758] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 03:23:30,771] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 03:23:30,776] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.114 seconds
+[2021-02-16 03:25:45,469] {scheduler_job.py:154} INFO - Started process (PID=85841) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:25:50,487] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 03:25:50,489] {logging_mixin.py:112} INFO - [2021-02-16 03:25:50,488] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:25:50,519] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:25:50,563] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 03:25:50,577] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 03:25:50,583] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.114 seconds
+[2021-02-16 03:28:05,184] {scheduler_job.py:154} INFO - Started process (PID=85890) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:28:10,204] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 03:28:10,205] {logging_mixin.py:112} INFO - [2021-02-16 03:28:10,205] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:28:10,229] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:28:10,305] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 03:28:10,322] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 03:28:10,331] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.147 seconds
+[2021-02-16 03:30:25,166] {scheduler_job.py:154} INFO - Started process (PID=85934) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:30:30,181] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 03:30:30,182] {logging_mixin.py:112} INFO - [2021-02-16 03:30:30,182] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:30:30,201] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:30:30,269] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 03:30:30,285] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 03:30:30,298] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.132 seconds
+[2021-02-16 03:32:44,888] {scheduler_job.py:154} INFO - Started process (PID=85993) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:32:49,904] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 03:32:49,906] {logging_mixin.py:112} INFO - [2021-02-16 03:32:49,905] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:32:49,935] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:32:49,999] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 03:32:50,012] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 03:32:50,020] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.131 seconds
+[2021-02-16 03:35:04,538] {scheduler_job.py:154} INFO - Started process (PID=86068) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:35:09,552] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 03:35:09,555] {logging_mixin.py:112} INFO - [2021-02-16 03:35:09,554] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:35:09,583] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:35:09,634] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 03:35:09,648] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 03:35:09,652] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.114 seconds
+[2021-02-16 03:37:23,986] {scheduler_job.py:154} INFO - Started process (PID=86107) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:37:28,999] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 03:37:29,002] {logging_mixin.py:112} INFO - [2021-02-16 03:37:29,001] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:37:29,018] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:37:29,066] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 03:37:29,093] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 03:37:29,099] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.113 seconds
+[2021-02-16 03:39:43,674] {scheduler_job.py:154} INFO - Started process (PID=86144) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:39:48,694] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 03:39:48,696] {logging_mixin.py:112} INFO - [2021-02-16 03:39:48,696] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:39:48,725] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:39:48,775] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 03:39:48,793] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 03:39:48,801] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.127 seconds
+[2021-02-16 03:42:03,421] {scheduler_job.py:154} INFO - Started process (PID=86180) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:42:08,434] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 03:42:08,436] {logging_mixin.py:112} INFO - [2021-02-16 03:42:08,435] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:42:08,472] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:42:08,527] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 03:42:08,541] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 03:42:08,546] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.126 seconds
+[2021-02-16 03:44:23,357] {scheduler_job.py:154} INFO - Started process (PID=86230) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:44:28,366] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 03:44:28,369] {logging_mixin.py:112} INFO - [2021-02-16 03:44:28,368] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:44:28,385] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:44:28,435] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 03:44:28,448] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 03:44:28,453] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.096 seconds
+[2021-02-16 03:46:43,078] {scheduler_job.py:154} INFO - Started process (PID=86275) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:46:48,090] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 03:46:48,092] {logging_mixin.py:112} INFO - [2021-02-16 03:46:48,091] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:46:48,123] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:46:48,174] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 03:46:48,189] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 03:46:48,192] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.114 seconds
+[2021-02-16 03:49:02,914] {scheduler_job.py:154} INFO - Started process (PID=86312) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:49:07,927] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 03:49:07,929] {logging_mixin.py:112} INFO - [2021-02-16 03:49:07,928] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:49:07,963] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:49:08,006] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 03:49:08,025] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 03:49:08,030] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.117 seconds
+[2021-02-16 03:51:22,693] {scheduler_job.py:154} INFO - Started process (PID=86344) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:51:27,706] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 03:51:27,708] {logging_mixin.py:112} INFO - [2021-02-16 03:51:27,707] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:51:27,735] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:51:27,788] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 03:51:27,801] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 03:51:27,807] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.114 seconds
+[2021-02-16 03:53:42,666] {scheduler_job.py:154} INFO - Started process (PID=86398) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:53:47,680] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 03:53:47,682] {logging_mixin.py:112} INFO - [2021-02-16 03:53:47,681] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:53:47,714] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:53:47,768] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 03:53:47,788] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 03:53:47,794] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.128 seconds
+[2021-02-16 03:56:02,594] {scheduler_job.py:154} INFO - Started process (PID=86431) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:56:07,608] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 03:56:07,611] {logging_mixin.py:112} INFO - [2021-02-16 03:56:07,610] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:56:07,648] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:56:07,701] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 03:56:07,716] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 03:56:07,727] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.133 seconds
+[2021-02-16 03:58:22,292] {scheduler_job.py:154} INFO - Started process (PID=86467) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:58:27,307] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 03:58:27,308] {logging_mixin.py:112} INFO - [2021-02-16 03:58:27,307] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:58:27,337] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 03:58:27,383] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 03:58:27,402] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 03:58:27,406] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.114 seconds
+[2021-02-16 04:00:42,203] {scheduler_job.py:154} INFO - Started process (PID=86507) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:00:47,220] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:00:47,225] {logging_mixin.py:112} INFO - [2021-02-16 04:00:47,223] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:00:47,255] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:00:47,337] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:00:47,367] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:00:47,378] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.175 seconds
+[2021-02-16 04:03:02,090] {scheduler_job.py:154} INFO - Started process (PID=86545) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:03:07,107] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:03:07,109] {logging_mixin.py:112} INFO - [2021-02-16 04:03:07,108] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:03:07,138] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:03:07,329] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:03:07,348] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:03:07,354] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.264 seconds
+[2021-02-16 04:05:22,106] {scheduler_job.py:154} INFO - Started process (PID=86595) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:05:27,121] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:05:27,122] {logging_mixin.py:112} INFO - [2021-02-16 04:05:27,122] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:05:27,148] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:05:27,195] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:05:27,211] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:05:27,216] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.111 seconds
+[2021-02-16 04:07:41,678] {scheduler_job.py:154} INFO - Started process (PID=86747) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:07:46,695] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:07:46,697] {logging_mixin.py:112} INFO - [2021-02-16 04:07:46,697] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:07:46,725] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:07:46,762] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:07:46,779] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:07:46,783] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.105 seconds
+[2021-02-16 04:10:01,421] {scheduler_job.py:154} INFO - Started process (PID=86786) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:10:06,431] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:10:06,432] {logging_mixin.py:112} INFO - [2021-02-16 04:10:06,432] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:10:06,464] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:10:06,519] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:10:06,532] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:10:06,540] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.118 seconds
+[2021-02-16 04:12:21,136] {scheduler_job.py:154} INFO - Started process (PID=86830) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:12:26,154] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:12:26,156] {logging_mixin.py:112} INFO - [2021-02-16 04:12:26,155] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:12:26,188] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:12:26,235] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:12:26,250] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:12:26,255] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.120 seconds
+[2021-02-16 04:14:41,242] {scheduler_job.py:154} INFO - Started process (PID=87325) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:14:46,252] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:14:46,254] {logging_mixin.py:112} INFO - [2021-02-16 04:14:46,253] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:14:46,279] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:14:46,331] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:14:46,351] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:14:46,359] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.117 seconds
+[2021-02-16 04:17:00,829] {scheduler_job.py:154} INFO - Started process (PID=87365) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:17:05,845] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:17:05,846] {logging_mixin.py:112} INFO - [2021-02-16 04:17:05,846] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:17:05,864] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:17:05,904] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:17:05,922] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:17:05,926] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.098 seconds
+[2021-02-16 04:19:20,512] {scheduler_job.py:154} INFO - Started process (PID=87402) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:19:25,532] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:19:25,533] {logging_mixin.py:112} INFO - [2021-02-16 04:19:25,533] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:19:25,548] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:19:25,590] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:19:25,605] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:19:25,609] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.096 seconds
+[2021-02-16 04:21:40,131] {scheduler_job.py:154} INFO - Started process (PID=87436) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:21:45,153] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:21:45,154] {logging_mixin.py:112} INFO - [2021-02-16 04:21:45,154] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:21:45,174] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:21:45,214] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:21:45,229] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:21:45,234] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.104 seconds
+[2021-02-16 04:23:59,732] {scheduler_job.py:154} INFO - Started process (PID=87478) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:24:04,744] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:24:04,746] {logging_mixin.py:112} INFO - [2021-02-16 04:24:04,745] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:24:04,776] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:24:04,815] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:24:04,834] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:24:04,842] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.110 seconds
+[2021-02-16 04:26:19,398] {scheduler_job.py:154} INFO - Started process (PID=87514) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:26:24,410] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:26:24,411] {logging_mixin.py:112} INFO - [2021-02-16 04:26:24,411] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:26:24,441] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:26:24,484] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:26:24,498] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:26:24,502] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.104 seconds
+[2021-02-16 04:28:38,981] {scheduler_job.py:154} INFO - Started process (PID=87562) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:28:43,996] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:28:43,998] {logging_mixin.py:112} INFO - [2021-02-16 04:28:43,997] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:28:44,021] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:28:44,064] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:28:44,078] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:28:44,082] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.101 seconds
+[2021-02-16 04:30:58,776] {scheduler_job.py:154} INFO - Started process (PID=87601) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:31:03,799] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:31:03,800] {logging_mixin.py:112} INFO - [2021-02-16 04:31:03,800] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:31:03,830] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:31:03,887] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:31:03,901] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:31:03,905] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.128 seconds
+[2021-02-16 04:33:18,514] {scheduler_job.py:154} INFO - Started process (PID=87651) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:33:23,532] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:33:23,534] {logging_mixin.py:112} INFO - [2021-02-16 04:33:23,533] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:33:23,552] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:33:23,594] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:33:23,607] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:33:23,611] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.098 seconds
+[2021-02-16 04:35:38,255] {scheduler_job.py:154} INFO - Started process (PID=87691) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:35:43,265] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:35:43,268] {logging_mixin.py:112} INFO - [2021-02-16 04:35:43,267] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:35:43,298] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:35:43,340] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:35:43,360] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:35:43,367] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.111 seconds
+[2021-02-16 04:37:57,821] {scheduler_job.py:154} INFO - Started process (PID=87735) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:38:02,838] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:38:02,840] {logging_mixin.py:112} INFO - [2021-02-16 04:38:02,839] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:38:02,869] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:38:02,910] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:38:02,926] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:38:02,933] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.113 seconds
+[2021-02-16 04:40:17,536] {scheduler_job.py:154} INFO - Started process (PID=87770) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:40:22,557] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:40:22,559] {logging_mixin.py:112} INFO - [2021-02-16 04:40:22,559] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:40:22,588] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:40:22,655] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:40:22,670] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:40:22,675] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.140 seconds
+[2021-02-16 04:42:37,131] {scheduler_job.py:154} INFO - Started process (PID=87806) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:42:42,150] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:42:42,152] {logging_mixin.py:112} INFO - [2021-02-16 04:42:42,151] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:42:42,182] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:42:42,225] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:42:42,242] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:42:42,251] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.120 seconds
+[2021-02-16 04:44:56,657] {scheduler_job.py:154} INFO - Started process (PID=87851) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:45:01,679] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:45:01,681] {logging_mixin.py:112} INFO - [2021-02-16 04:45:01,680] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:45:01,703] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:45:01,745] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:45:01,761] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:45:01,765] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.108 seconds
+[2021-02-16 04:47:16,230] {scheduler_job.py:154} INFO - Started process (PID=87888) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:47:21,246] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:47:21,248] {logging_mixin.py:112} INFO - [2021-02-16 04:47:21,247] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:47:21,283] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:47:21,325] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:47:21,340] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:47:21,349] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.119 seconds
+[2021-02-16 04:49:35,892] {scheduler_job.py:154} INFO - Started process (PID=87921) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:49:40,915] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:49:40,917] {logging_mixin.py:112} INFO - [2021-02-16 04:49:40,916] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:49:40,941] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:49:40,981] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:49:41,004] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:49:41,008] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.116 seconds
+[2021-02-16 04:51:55,859] {scheduler_job.py:154} INFO - Started process (PID=87962) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:52:00,877] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:52:00,878] {logging_mixin.py:112} INFO - [2021-02-16 04:52:00,878] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:52:00,903] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:52:00,946] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:52:00,967] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:52:00,970] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.112 seconds
+[2021-02-16 04:54:15,424] {scheduler_job.py:154} INFO - Started process (PID=87998) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:54:20,438] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:54:20,440] {logging_mixin.py:112} INFO - [2021-02-16 04:54:20,439] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:54:20,463] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:54:20,523] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:54:20,552] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:54:20,558] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.135 seconds
+[2021-02-16 04:56:35,060] {scheduler_job.py:154} INFO - Started process (PID=88034) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:56:40,071] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:56:40,072] {logging_mixin.py:112} INFO - [2021-02-16 04:56:40,072] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:56:40,100] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:56:40,136] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:56:40,150] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:56:40,154] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.095 seconds
+[2021-02-16 04:58:54,647] {scheduler_job.py:154} INFO - Started process (PID=88072) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:58:59,661] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 04:58:59,662] {logging_mixin.py:112} INFO - [2021-02-16 04:58:59,662] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:58:59,682] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 04:58:59,731] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 04:58:59,759] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 04:58:59,767] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.120 seconds
+[2021-02-16 05:01:14,360] {scheduler_job.py:154} INFO - Started process (PID=88111) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:01:19,377] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:01:19,379] {logging_mixin.py:112} INFO - [2021-02-16 05:01:19,379] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:01:19,411] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:01:19,448] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:01:19,468] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:01:19,479] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.119 seconds
+[2021-02-16 05:03:33,897] {scheduler_job.py:154} INFO - Started process (PID=88159) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:03:38,913] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:03:38,915] {logging_mixin.py:112} INFO - [2021-02-16 05:03:38,914] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:03:38,945] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:03:38,984] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:03:39,004] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:03:39,017] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.120 seconds
+[2021-02-16 05:05:53,693] {scheduler_job.py:154} INFO - Started process (PID=88196) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:05:58,707] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:05:58,710] {logging_mixin.py:112} INFO - [2021-02-16 05:05:58,709] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:05:58,743] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:05:58,819] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:05:58,834] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:05:58,839] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.146 seconds
+[2021-02-16 05:08:13,291] {scheduler_job.py:154} INFO - Started process (PID=88245) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:08:18,308] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:08:18,309] {logging_mixin.py:112} INFO - [2021-02-16 05:08:18,309] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:08:18,335] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:08:18,373] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:08:18,388] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:08:18,402] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.111 seconds
+[2021-02-16 05:10:32,939] {scheduler_job.py:154} INFO - Started process (PID=88280) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:10:37,953] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:10:37,954] {logging_mixin.py:112} INFO - [2021-02-16 05:10:37,954] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:10:37,979] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:10:38,018] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:10:38,040] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:10:38,048] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.109 seconds
+[2021-02-16 05:12:53,388] {scheduler_job.py:154} INFO - Started process (PID=88323) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:12:58,411] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:12:58,414] {logging_mixin.py:112} INFO - [2021-02-16 05:12:58,413] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:12:58,447] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:12:58,486] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:12:58,513] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:12:58,523] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.135 seconds
+[2021-02-16 05:15:13,131] {scheduler_job.py:154} INFO - Started process (PID=88362) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:15:18,148] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:15:18,151] {logging_mixin.py:112} INFO - [2021-02-16 05:15:18,150] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:15:18,183] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:15:18,222] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:15:18,240] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:15:18,245] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.114 seconds
+[2021-02-16 05:17:32,731] {scheduler_job.py:154} INFO - Started process (PID=88401) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:17:37,739] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:17:37,743] {logging_mixin.py:112} INFO - [2021-02-16 05:17:37,742] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:17:37,769] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:17:37,812] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:17:37,830] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:17:37,837] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.106 seconds
+[2021-02-16 05:19:52,368] {scheduler_job.py:154} INFO - Started process (PID=88434) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:19:57,388] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:19:57,400] {logging_mixin.py:112} INFO - [2021-02-16 05:19:57,399] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:19:57,420] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:19:57,458] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:19:57,477] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:19:57,482] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.115 seconds
+[2021-02-16 05:22:11,908] {scheduler_job.py:154} INFO - Started process (PID=88469) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:22:16,927] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:22:16,931] {logging_mixin.py:112} INFO - [2021-02-16 05:22:16,929] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:22:16,957] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:22:16,995] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:22:17,013] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:22:17,018] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.110 seconds
+[2021-02-16 05:24:31,392] {scheduler_job.py:154} INFO - Started process (PID=88509) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:24:36,413] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:24:36,414] {logging_mixin.py:112} INFO - [2021-02-16 05:24:36,414] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:24:36,444] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:24:36,481] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:24:36,496] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:24:36,499] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.107 seconds
+[2021-02-16 05:26:51,035] {scheduler_job.py:154} INFO - Started process (PID=88546) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:26:56,055] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:26:56,058] {logging_mixin.py:112} INFO - [2021-02-16 05:26:56,057] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:26:56,078] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:26:56,120] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:26:56,133] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:26:56,139] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.104 seconds
+[2021-02-16 05:29:10,723] {scheduler_job.py:154} INFO - Started process (PID=88581) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:29:15,740] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:29:15,742] {logging_mixin.py:112} INFO - [2021-02-16 05:29:15,741] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:29:15,761] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:29:15,802] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:29:15,819] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:29:15,824] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.101 seconds
+[2021-02-16 05:31:30,244] {scheduler_job.py:154} INFO - Started process (PID=88620) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:31:35,261] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:31:35,262] {logging_mixin.py:112} INFO - [2021-02-16 05:31:35,262] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:31:35,295] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:31:35,336] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:31:35,354] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:31:35,364] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.120 seconds
+[2021-02-16 05:33:49,889] {scheduler_job.py:154} INFO - Started process (PID=88660) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:33:54,909] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:33:54,911] {logging_mixin.py:112} INFO - [2021-02-16 05:33:54,911] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:33:54,945] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:33:54,990] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:33:55,004] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:33:55,009] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.119 seconds
+[2021-02-16 05:36:09,522] {scheduler_job.py:154} INFO - Started process (PID=88695) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:36:14,540] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:36:14,543] {logging_mixin.py:112} INFO - [2021-02-16 05:36:14,541] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:36:14,577] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:36:14,616] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:36:14,630] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:36:14,668] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.146 seconds
+[2021-02-16 05:38:29,015] {scheduler_job.py:154} INFO - Started process (PID=88738) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:38:34,025] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:38:34,027] {logging_mixin.py:112} INFO - [2021-02-16 05:38:34,027] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:38:34,059] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:38:34,098] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:38:34,112] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:38:34,121] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.106 seconds
+[2021-02-16 05:40:52,114] {scheduler_job.py:154} INFO - Started process (PID=88775) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:40:57,142] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:40:57,147] {logging_mixin.py:112} INFO - [2021-02-16 05:40:57,145] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:40:57,239] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:40:57,430] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:40:57,493] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:40:57,507] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.393 seconds
+[2021-02-16 05:43:17,433] {scheduler_job.py:154} INFO - Started process (PID=88816) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:43:22,478] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:43:22,486] {logging_mixin.py:112} INFO - [2021-02-16 05:43:22,483] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:43:22,548] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:43:22,828] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:43:22,887] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:43:22,910] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.478 seconds
+[2021-02-16 05:45:42,882] {scheduler_job.py:154} INFO - Started process (PID=88862) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:45:47,912] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:45:47,915] {logging_mixin.py:112} INFO - [2021-02-16 05:45:47,914] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:45:47,966] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:45:48,083] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:45:48,125] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:45:48,138] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.255 seconds
+[2021-02-16 05:48:07,864] {scheduler_job.py:154} INFO - Started process (PID=88901) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:48:12,892] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:48:12,896] {logging_mixin.py:112} INFO - [2021-02-16 05:48:12,894] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:48:12,957] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:48:13,113] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:48:13,184] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:48:13,219] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.355 seconds
+[2021-02-16 05:50:33,493] {scheduler_job.py:154} INFO - Started process (PID=88940) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:50:38,518] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 05:50:38,522] {logging_mixin.py:112} INFO - [2021-02-16 05:50:38,520] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:50:38,585] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 05:50:38,686] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 05:50:38,723] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 05:50:38,736] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.244 seconds
+[2021-02-16 18:41:35,339] {scheduler_job.py:154} INFO - Started process (PID=89110) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:41:40,351] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 18:41:40,353] {logging_mixin.py:112} INFO - [2021-02-16 18:41:40,352] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:41:40,378] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:41:40,453] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 18:41:40,475] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 18:41:40,485] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.146 seconds
+[2021-02-16 18:43:55,805] {scheduler_job.py:154} INFO - Started process (PID=89173) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:44:00,818] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 18:44:00,821] {logging_mixin.py:112} INFO - [2021-02-16 18:44:00,821] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:44:00,852] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:44:00,910] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 18:44:00,947] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 18:44:00,958] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.152 seconds
+[2021-02-16 18:46:15,515] {scheduler_job.py:154} INFO - Started process (PID=89213) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:46:20,525] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 18:46:20,528] {logging_mixin.py:112} INFO - [2021-02-16 18:46:20,527] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:46:20,560] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:46:20,608] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 18:46:20,624] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 18:46:20,629] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.114 seconds
+[2021-02-16 18:48:35,113] {scheduler_job.py:154} INFO - Started process (PID=89265) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:48:40,131] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 18:48:40,143] {logging_mixin.py:112} INFO - [2021-02-16 18:48:40,142] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:48:40,167] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:48:40,239] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 18:48:40,261] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 18:48:40,266] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.153 seconds
+[2021-02-16 18:50:55,460] {scheduler_job.py:154} INFO - Started process (PID=89309) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:51:00,469] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 18:51:00,470] {logging_mixin.py:112} INFO - [2021-02-16 18:51:00,470] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:51:00,506] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:51:00,573] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 18:51:00,593] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 18:51:00,599] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.139 seconds
+[2021-02-16 18:53:15,245] {scheduler_job.py:154} INFO - Started process (PID=89347) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:53:20,261] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 18:53:20,263] {logging_mixin.py:112} INFO - [2021-02-16 18:53:20,262] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:53:20,295] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:53:20,348] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 18:53:20,377] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 18:53:20,550] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.305 seconds
+[2021-02-16 18:55:35,193] {scheduler_job.py:154} INFO - Started process (PID=89495) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:55:40,210] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 18:55:40,212] {logging_mixin.py:112} INFO - [2021-02-16 18:55:40,211] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:55:40,232] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:55:40,298] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 18:55:40,313] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 18:55:40,319] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.126 seconds
+[2021-02-16 18:57:54,986] {scheduler_job.py:154} INFO - Started process (PID=89560) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:58:00,011] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 18:58:00,017] {logging_mixin.py:112} INFO - [2021-02-16 18:58:00,016] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:58:00,042] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 18:58:00,097] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 18:58:00,112] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 18:58:00,119] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.133 seconds
+[2021-02-16 19:00:14,973] {scheduler_job.py:154} INFO - Started process (PID=89597) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:00:19,992] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:00:19,994] {logging_mixin.py:112} INFO - [2021-02-16 19:00:19,994] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:00:20,025] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:00:20,101] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:00:20,117] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:00:20,122] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.148 seconds
+[2021-02-16 19:02:34,743] {scheduler_job.py:154} INFO - Started process (PID=89637) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:02:39,764] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:02:39,766] {logging_mixin.py:112} INFO - [2021-02-16 19:02:39,765] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:02:39,797] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:02:39,853] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:02:39,871] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:02:39,884] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.141 seconds
+[2021-02-16 19:04:54,471] {scheduler_job.py:154} INFO - Started process (PID=89676) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:04:59,483] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:04:59,485] {logging_mixin.py:112} INFO - [2021-02-16 19:04:59,484] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:04:59,508] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:04:59,565] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:04:59,581] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:04:59,585] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.114 seconds
+[2021-02-16 19:07:14,206] {scheduler_job.py:154} INFO - Started process (PID=89710) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:07:19,226] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:07:19,228] {logging_mixin.py:112} INFO - [2021-02-16 19:07:19,228] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:07:19,248] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:07:19,305] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:07:19,322] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:07:19,336] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.131 seconds
+[2021-02-16 19:09:33,728] {scheduler_job.py:154} INFO - Started process (PID=89749) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:09:38,741] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:09:38,743] {logging_mixin.py:112} INFO - [2021-02-16 19:09:38,743] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:09:38,771] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:09:38,826] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:09:38,841] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:09:38,845] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.118 seconds
+[2021-02-16 19:11:53,393] {scheduler_job.py:154} INFO - Started process (PID=89787) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:11:58,410] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:11:58,412] {logging_mixin.py:112} INFO - [2021-02-16 19:11:58,411] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:11:58,440] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:11:58,490] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:11:58,507] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:11:58,519] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.126 seconds
+[2021-02-16 19:14:13,066] {scheduler_job.py:154} INFO - Started process (PID=89824) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:14:18,081] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:14:18,083] {logging_mixin.py:112} INFO - [2021-02-16 19:14:18,082] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:14:18,101] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:14:18,155] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:14:18,167] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:14:18,173] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.107 seconds
+[2021-02-16 19:16:32,890] {scheduler_job.py:154} INFO - Started process (PID=89858) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:16:37,904] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:16:37,906] {logging_mixin.py:112} INFO - [2021-02-16 19:16:37,905] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:16:37,933] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:16:37,972] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:16:37,987] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:16:37,992] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.102 seconds
+[2021-02-16 19:18:52,733] {scheduler_job.py:154} INFO - Started process (PID=89906) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:18:57,753] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:18:57,756] {logging_mixin.py:112} INFO - [2021-02-16 19:18:57,755] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:18:57,776] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:18:57,828] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:18:57,847] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:18:57,855] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.122 seconds
+[2021-02-16 19:21:12,286] {scheduler_job.py:154} INFO - Started process (PID=89939) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:21:17,299] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:21:17,301] {logging_mixin.py:112} INFO - [2021-02-16 19:21:17,300] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:21:17,331] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:21:17,380] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:21:17,395] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:21:17,401] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.114 seconds
+[2021-02-16 19:23:31,874] {scheduler_job.py:154} INFO - Started process (PID=89978) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:23:36,891] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:23:36,893] {logging_mixin.py:112} INFO - [2021-02-16 19:23:36,893] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:23:36,928] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:23:36,981] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:23:36,997] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:23:37,002] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.128 seconds
+[2021-02-16 19:25:51,478] {scheduler_job.py:154} INFO - Started process (PID=90011) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:25:56,489] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:25:56,490] {logging_mixin.py:112} INFO - [2021-02-16 19:25:56,490] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:25:56,508] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:25:56,577] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:25:56,599] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:25:56,608] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.130 seconds
+[2021-02-16 19:28:11,188] {scheduler_job.py:154} INFO - Started process (PID=90066) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:28:16,200] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:28:16,202] {logging_mixin.py:112} INFO - [2021-02-16 19:28:16,202] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:28:16,238] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:28:16,293] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:28:16,314] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:28:16,319] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.131 seconds
+[2021-02-16 19:30:31,189] {scheduler_job.py:154} INFO - Started process (PID=90101) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:30:36,206] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:30:36,208] {logging_mixin.py:112} INFO - [2021-02-16 19:30:36,207] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:30:36,236] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:30:36,283] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:30:36,297] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:30:36,303] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.114 seconds
+[2021-02-16 19:32:51,233] {scheduler_job.py:154} INFO - Started process (PID=90152) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:32:56,242] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:32:56,244] {logging_mixin.py:112} INFO - [2021-02-16 19:32:56,243] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:32:56,276] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:32:56,331] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:32:56,351] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:32:56,356] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.123 seconds
+[2021-02-16 19:35:10,938] {scheduler_job.py:154} INFO - Started process (PID=90191) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:35:15,958] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:35:15,960] {logging_mixin.py:112} INFO - [2021-02-16 19:35:15,959] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:35:15,998] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:35:16,055] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:35:16,072] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:35:16,079] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.141 seconds
+[2021-02-16 19:37:30,829] {scheduler_job.py:154} INFO - Started process (PID=90230) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:37:35,837] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:37:35,839] {logging_mixin.py:112} INFO - [2021-02-16 19:37:35,838] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:37:35,870] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:37:35,929] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:37:35,948] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:37:35,954] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.125 seconds
+[2021-02-16 19:39:50,575] {scheduler_job.py:154} INFO - Started process (PID=90265) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:39:55,589] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:39:55,592] {logging_mixin.py:112} INFO - [2021-02-16 19:39:55,591] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:39:55,618] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:39:55,675] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:39:55,707] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:39:55,714] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.139 seconds
+[2021-02-16 19:42:10,387] {scheduler_job.py:154} INFO - Started process (PID=90306) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:42:15,396] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:42:15,398] {logging_mixin.py:112} INFO - [2021-02-16 19:42:15,398] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:42:15,436] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:42:15,487] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:42:15,509] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:42:15,523] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.137 seconds
+[2021-02-16 19:44:30,064] {scheduler_job.py:154} INFO - Started process (PID=90342) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:44:35,085] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:44:35,087] {logging_mixin.py:112} INFO - [2021-02-16 19:44:35,086] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:44:35,121] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:44:35,159] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:44:35,189] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:44:35,198] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.134 seconds
+[2021-02-16 19:46:49,861] {scheduler_job.py:154} INFO - Started process (PID=90376) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:46:54,884] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:46:54,886] {logging_mixin.py:112} INFO - [2021-02-16 19:46:54,885] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:46:54,915] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:46:54,966] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:46:54,981] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:46:54,995] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.134 seconds
+[2021-02-16 19:49:09,462] {scheduler_job.py:154} INFO - Started process (PID=90418) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:49:14,479] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:49:14,480] {logging_mixin.py:112} INFO - [2021-02-16 19:49:14,480] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:49:14,509] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:49:14,557] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:49:14,573] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:49:14,585] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.124 seconds
+[2021-02-16 19:51:29,396] {scheduler_job.py:154} INFO - Started process (PID=90460) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:51:34,408] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:51:34,410] {logging_mixin.py:112} INFO - [2021-02-16 19:51:34,409] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:51:34,440] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:51:34,478] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:51:34,499] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:51:34,508] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.112 seconds
+[2021-02-16 19:53:49,082] {scheduler_job.py:154} INFO - Started process (PID=90505) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:53:54,096] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:53:54,100] {logging_mixin.py:112} INFO - [2021-02-16 19:53:54,098] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:53:54,118] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:53:54,156] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:53:54,178] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:53:54,183] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.101 seconds
+[2021-02-16 19:56:08,878] {scheduler_job.py:154} INFO - Started process (PID=90539) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:56:13,891] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:56:13,893] {logging_mixin.py:112} INFO - [2021-02-16 19:56:13,892] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:56:13,915] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:56:13,982] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:56:14,001] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:56:14,010] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.132 seconds
+[2021-02-16 19:58:28,302] {scheduler_job.py:154} INFO - Started process (PID=90581) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:58:33,314] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 19:58:33,316] {logging_mixin.py:112} INFO - [2021-02-16 19:58:33,315] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:58:33,345] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 19:58:33,392] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 19:58:33,403] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 19:58:33,407] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.106 seconds
+[2021-02-16 20:00:47,618] {scheduler_job.py:154} INFO - Started process (PID=90615) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 20:00:52,641] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 20:00:52,643] {logging_mixin.py:112} INFO - [2021-02-16 20:00:52,642] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 20:00:52,669] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 20:00:52,713] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 20:00:52,725] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 20:00:52,729] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.112 seconds
+[2021-02-16 20:03:06,846] {scheduler_job.py:154} INFO - Started process (PID=90807) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 20:03:11,857] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 20:03:11,859] {logging_mixin.py:112} INFO - [2021-02-16 20:03:11,859] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 20:03:11,877] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 20:03:11,941] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 20:03:11,965] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 20:03:11,971] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.125 seconds
+[2021-02-16 20:05:26,251] {scheduler_job.py:154} INFO - Started process (PID=91169) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 20:05:31,260] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 20:05:31,262] {logging_mixin.py:112} INFO - [2021-02-16 20:05:31,262] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 20:05:31,291] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 20:05:31,328] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 20:05:31,339] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 20:05:31,344] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.094 seconds
+[2021-02-16 20:07:45,049] {scheduler_job.py:154} INFO - Started process (PID=91221) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 20:07:50,064] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 20:07:50,066] {logging_mixin.py:112} INFO - [2021-02-16 20:07:50,066] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 20:07:50,097] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 20:07:50,133] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 20:07:50,145] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 20:07:50,148] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.100 seconds
+[2021-02-16 20:10:03,431] {scheduler_job.py:154} INFO - Started process (PID=91262) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 20:10:08,447] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 20:10:08,449] {logging_mixin.py:112} INFO - [2021-02-16 20:10:08,449] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 20:10:08,472] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 20:10:08,515] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 20:10:08,529] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 20:10:08,532] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.101 seconds
+[2021-02-16 20:12:22,529] {scheduler_job.py:154} INFO - Started process (PID=91302) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 20:12:27,538] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-16 20:12:27,540] {logging_mixin.py:112} INFO - [2021-02-16 20:12:27,539] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 20:12:27,569] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-16 20:12:27,609] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-16 20:12:27,620] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-16 20:12:27,624] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.095 seconds
+[2021-02-17 00:46:57,031] {scheduler_job.py:154} INFO - Started process (PID=91494) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 00:47:02,046] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 00:47:02,048] {logging_mixin.py:112} INFO - [2021-02-17 00:47:02,047] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 00:47:02,070] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 00:47:02,164] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 00:47:02,179] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 00:47:02,184] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.153 seconds
+[2021-02-17 00:49:17,336] {scheduler_job.py:154} INFO - Started process (PID=91650) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 00:49:22,348] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 00:49:22,349] {logging_mixin.py:112} INFO - [2021-02-17 00:49:22,349] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 00:49:22,376] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 00:49:22,454] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 00:49:22,477] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 00:49:22,486] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.150 seconds
+[2021-02-17 00:51:38,101] {scheduler_job.py:154} INFO - Started process (PID=91725) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 00:51:43,116] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 00:51:43,120] {logging_mixin.py:112} INFO - [2021-02-17 00:51:43,119] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 00:51:43,188] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 00:51:43,253] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 00:51:43,284] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 00:51:43,295] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.194 seconds
+[2021-02-17 00:53:58,118] {scheduler_job.py:154} INFO - Started process (PID=91769) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 00:54:03,140] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 00:54:03,146] {logging_mixin.py:112} INFO - [2021-02-17 00:54:03,145] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 00:54:03,177] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 00:54:03,246] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 00:54:03,269] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 00:54:03,281] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.163 seconds
+[2021-02-17 00:56:18,130] {scheduler_job.py:154} INFO - Started process (PID=91831) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 00:56:23,143] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 00:56:23,146] {logging_mixin.py:112} INFO - [2021-02-17 00:56:23,145] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 00:56:23,170] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 00:56:23,242] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 00:56:23,262] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 00:56:23,272] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.142 seconds
+[2021-02-17 00:58:38,045] {scheduler_job.py:154} INFO - Started process (PID=91952) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 00:58:43,060] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 00:58:43,062] {logging_mixin.py:112} INFO - [2021-02-17 00:58:43,061] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 00:58:43,084] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 00:58:43,145] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 00:58:43,174] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 00:58:43,186] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.141 seconds
+[2021-02-17 01:00:58,361] {scheduler_job.py:154} INFO - Started process (PID=91999) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:01:03,374] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:01:03,378] {logging_mixin.py:112} INFO - [2021-02-17 01:01:03,377] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:01:03,423] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:01:03,509] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:01:03,534] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:01:03,551] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.190 seconds
+[2021-02-17 01:03:18,279] {scheduler_job.py:154} INFO - Started process (PID=92058) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:03:23,291] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:03:23,293] {logging_mixin.py:112} INFO - [2021-02-17 01:03:23,292] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:03:23,319] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:03:23,406] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:03:23,424] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:03:23,439] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.160 seconds
+[2021-02-17 01:05:38,179] {scheduler_job.py:154} INFO - Started process (PID=92140) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:05:43,194] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:05:43,196] {logging_mixin.py:112} INFO - [2021-02-17 01:05:43,195] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:05:43,219] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:05:43,288] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:05:43,314] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:05:43,327] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.148 seconds
+[2021-02-17 01:07:57,953] {scheduler_job.py:154} INFO - Started process (PID=92216) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:08:02,961] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:08:02,962] {logging_mixin.py:112} INFO - [2021-02-17 01:08:02,962] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:08:02,993] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:08:03,055] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:08:03,076] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:08:03,082] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.129 seconds
+[2021-02-17 01:10:18,077] {scheduler_job.py:154} INFO - Started process (PID=92321) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:10:23,091] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:10:23,093] {logging_mixin.py:112} INFO - [2021-02-17 01:10:23,093] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:10:23,121] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:10:23,183] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:10:23,197] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:10:23,202] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.125 seconds
+[2021-02-17 01:12:37,911] {scheduler_job.py:154} INFO - Started process (PID=92372) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:12:42,921] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:12:42,923] {logging_mixin.py:112} INFO - [2021-02-17 01:12:42,922] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:12:42,946] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:12:42,999] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:12:43,015] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:12:43,020] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.109 seconds
+[2021-02-17 01:14:57,688] {scheduler_job.py:154} INFO - Started process (PID=92477) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:15:02,700] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:15:02,702] {logging_mixin.py:112} INFO - [2021-02-17 01:15:02,702] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:15:02,734] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:15:02,787] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:15:02,808] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:15:02,813] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.126 seconds
+[2021-02-17 01:17:17,477] {scheduler_job.py:154} INFO - Started process (PID=92519) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:17:22,491] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:17:22,493] {logging_mixin.py:112} INFO - [2021-02-17 01:17:22,493] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:17:22,516] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:17:22,574] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:17:22,599] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:17:22,606] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.129 seconds
+[2021-02-17 01:19:36,956] {scheduler_job.py:154} INFO - Started process (PID=92560) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:19:41,967] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:19:41,969] {logging_mixin.py:112} INFO - [2021-02-17 01:19:41,968] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:19:41,984] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:19:42,034] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:19:42,056] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:19:42,064] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.108 seconds
+[2021-02-17 01:21:56,937] {scheduler_job.py:154} INFO - Started process (PID=92623) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:22:01,950] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:22:01,952] {logging_mixin.py:112} INFO - [2021-02-17 01:22:01,952] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:22:01,972] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:22:02,040] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:22:02,059] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:22:02,068] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.131 seconds
+[2021-02-17 01:24:16,533] {scheduler_job.py:154} INFO - Started process (PID=92663) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:24:21,543] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:24:21,545] {logging_mixin.py:112} INFO - [2021-02-17 01:24:21,544] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:24:21,573] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:24:21,626] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:24:21,644] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:24:21,648] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.116 seconds
+[2021-02-17 01:26:35,952] {scheduler_job.py:154} INFO - Started process (PID=92812) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:26:40,966] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:26:40,968] {logging_mixin.py:112} INFO - [2021-02-17 01:26:40,967] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:26:40,998] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:26:41,050] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:26:41,067] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:26:41,072] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.120 seconds
+[2021-02-17 01:28:55,550] {scheduler_job.py:154} INFO - Started process (PID=92854) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:29:00,565] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:29:00,567] {logging_mixin.py:112} INFO - [2021-02-17 01:29:00,566] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:29:00,598] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:29:00,647] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:29:00,660] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:29:00,664] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.114 seconds
+[2021-02-17 01:31:15,146] {scheduler_job.py:154} INFO - Started process (PID=92894) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:31:20,160] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:31:20,162] {logging_mixin.py:112} INFO - [2021-02-17 01:31:20,161] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:31:20,203] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:31:20,249] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:31:20,263] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:31:20,269] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.123 seconds
+[2021-02-17 01:33:34,824] {scheduler_job.py:154} INFO - Started process (PID=92930) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:33:39,836] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:33:39,838] {logging_mixin.py:112} INFO - [2021-02-17 01:33:39,837] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:33:39,860] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:33:39,904] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:33:39,918] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:33:39,928] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.103 seconds
+[2021-02-17 01:35:54,597] {scheduler_job.py:154} INFO - Started process (PID=92970) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:35:59,606] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:35:59,609] {logging_mixin.py:112} INFO - [2021-02-17 01:35:59,608] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:35:59,648] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:35:59,696] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:35:59,712] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:35:59,715] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.119 seconds
+[2021-02-17 01:38:14,386] {scheduler_job.py:154} INFO - Started process (PID=93006) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:38:19,403] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:38:19,406] {logging_mixin.py:112} INFO - [2021-02-17 01:38:19,405] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:38:19,463] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:38:19,528] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:38:19,547] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:38:19,553] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.168 seconds
+[2021-02-17 01:40:34,230] {scheduler_job.py:154} INFO - Started process (PID=93054) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:40:39,249] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:40:39,250] {logging_mixin.py:112} INFO - [2021-02-17 01:40:39,250] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:40:39,284] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:40:39,335] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:40:39,353] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:40:39,359] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.129 seconds
+[2021-02-17 01:42:53,919] {scheduler_job.py:154} INFO - Started process (PID=93093) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:42:58,929] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:42:58,931] {logging_mixin.py:112} INFO - [2021-02-17 01:42:58,930] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:42:58,961] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:42:59,012] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:42:59,025] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:42:59,029] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.110 seconds
+[2021-02-17 01:45:13,571] {scheduler_job.py:154} INFO - Started process (PID=93133) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:45:18,582] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:45:18,583] {logging_mixin.py:112} INFO - [2021-02-17 01:45:18,583] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:45:18,615] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:45:18,666] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:45:18,679] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:45:18,684] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.113 seconds
+[2021-02-17 01:47:33,317] {scheduler_job.py:154} INFO - Started process (PID=93170) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:47:38,333] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:47:38,335] {logging_mixin.py:112} INFO - [2021-02-17 01:47:38,334] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:47:38,369] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:47:38,418] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:47:38,438] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:47:38,446] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.129 seconds
+[2021-02-17 01:49:52,778] {scheduler_job.py:154} INFO - Started process (PID=93215) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:49:57,793] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:49:57,794] {logging_mixin.py:112} INFO - [2021-02-17 01:49:57,794] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:49:57,824] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:49:57,865] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:49:57,887] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:49:57,894] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.116 seconds
+[2021-02-17 01:52:12,535] {scheduler_job.py:154} INFO - Started process (PID=93258) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:52:17,547] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:52:17,550] {logging_mixin.py:112} INFO - [2021-02-17 01:52:17,549] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:52:17,580] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:52:17,623] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:52:17,643] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:52:17,652] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.117 seconds
+[2021-02-17 01:54:32,127] {scheduler_job.py:154} INFO - Started process (PID=93296) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:54:37,144] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:54:37,146] {logging_mixin.py:112} INFO - [2021-02-17 01:54:37,145] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:54:37,177] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:54:37,233] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:54:37,253] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:54:37,260] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.134 seconds
+[2021-02-17 01:56:51,704] {scheduler_job.py:154} INFO - Started process (PID=93336) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:56:56,719] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:56:56,721] {logging_mixin.py:112} INFO - [2021-02-17 01:56:56,720] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:56:56,746] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:56:56,787] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:56:56,808] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:56:56,812] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.109 seconds
+[2021-02-17 01:59:11,497] {scheduler_job.py:154} INFO - Started process (PID=93376) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:59:16,516] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 01:59:16,518] {logging_mixin.py:112} INFO - [2021-02-17 01:59:16,517] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:59:16,536] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 01:59:16,585] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 01:59:16,599] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 01:59:16,604] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.107 seconds
+[2021-02-17 02:01:31,115] {scheduler_job.py:154} INFO - Started process (PID=93411) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:01:36,130] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 02:01:36,132] {logging_mixin.py:112} INFO - [2021-02-17 02:01:36,131] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:01:36,151] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:01:36,193] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 02:01:36,214] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 02:01:36,222] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.107 seconds
+[2021-02-17 02:03:50,799] {scheduler_job.py:154} INFO - Started process (PID=93448) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:03:55,818] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 02:03:55,820] {logging_mixin.py:112} INFO - [2021-02-17 02:03:55,820] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:03:55,845] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:03:55,898] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 02:03:55,910] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 02:03:55,919] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.120 seconds
+[2021-02-17 02:06:10,538] {scheduler_job.py:154} INFO - Started process (PID=93493) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:06:15,556] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 02:06:15,559] {logging_mixin.py:112} INFO - [2021-02-17 02:06:15,558] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:06:15,592] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:06:15,636] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 02:06:15,650] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 02:06:15,662] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.124 seconds
+[2021-02-17 02:08:30,252] {scheduler_job.py:154} INFO - Started process (PID=93537) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:08:35,273] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 02:08:35,275] {logging_mixin.py:112} INFO - [2021-02-17 02:08:35,275] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:08:35,303] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:08:35,353] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 02:08:35,366] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 02:08:35,376] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.124 seconds
+[2021-02-17 02:10:49,844] {scheduler_job.py:154} INFO - Started process (PID=93572) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:10:54,865] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 02:10:54,875] {logging_mixin.py:112} INFO - [2021-02-17 02:10:54,874] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:10:54,899] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:10:54,944] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 02:10:54,958] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 02:10:54,966] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.122 seconds
+[2021-02-17 02:13:09,716] {scheduler_job.py:154} INFO - Started process (PID=93614) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:13:14,733] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 02:13:14,736] {logging_mixin.py:112} INFO - [2021-02-17 02:13:14,735] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:13:14,766] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:13:14,800] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 02:13:14,813] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 02:13:14,817] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.101 seconds
+[2021-02-17 02:15:28,822] {scheduler_job.py:154} INFO - Started process (PID=93671) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:15:33,837] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 02:15:33,839] {logging_mixin.py:112} INFO - [2021-02-17 02:15:33,839] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:15:33,872] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:15:33,924] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 02:15:33,936] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 02:15:33,944] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.122 seconds
+[2021-02-17 02:17:48,884] {scheduler_job.py:154} INFO - Started process (PID=93800) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:17:53,902] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 02:17:53,903] {logging_mixin.py:112} INFO - [2021-02-17 02:17:53,903] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:17:53,923] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:17:53,969] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 02:17:53,991] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 02:17:54,000] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.116 seconds
+[2021-02-17 02:20:08,418] {scheduler_job.py:154} INFO - Started process (PID=93866) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:20:13,430] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 02:20:13,431] {logging_mixin.py:112} INFO - [2021-02-17 02:20:13,431] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:20:13,456] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:20:13,517] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 02:20:13,542] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 02:20:13,551] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.133 seconds
+[2021-02-17 02:22:28,040] {scheduler_job.py:154} INFO - Started process (PID=93977) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:22:33,057] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 02:22:33,058] {logging_mixin.py:112} INFO - [2021-02-17 02:22:33,058] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:22:33,075] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:22:33,122] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 02:22:33,142] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 02:22:33,148] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.108 seconds
+[2021-02-17 02:24:47,437] {scheduler_job.py:154} INFO - Started process (PID=94035) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:24:52,447] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 02:24:52,449] {logging_mixin.py:112} INFO - [2021-02-17 02:24:52,448] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:24:52,483] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:24:52,534] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 02:24:52,545] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 02:24:52,550] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.113 seconds
+[2021-02-17 02:27:06,585] {scheduler_job.py:154} INFO - Started process (PID=94071) to work on /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:27:11,599] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py for tasks to queue
+[2021-02-17 02:27:11,600] {logging_mixin.py:112} INFO - [2021-02-17 02:27:11,599] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:27:11,625] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['parse_goods']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py
+[2021-02-17 02:27:11,668] {scheduler_job.py:1284} INFO - Processing parse_goods
+[2021-02-17 02:27:11,685] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: parse_goods> because no tasks in DAG have SLAs
+[2021-02-17 02:27:11,690] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/goods_parse.py took 5.104 seconds

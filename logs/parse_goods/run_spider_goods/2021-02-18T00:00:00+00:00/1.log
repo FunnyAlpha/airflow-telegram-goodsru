@@ -1,0 +1,143 @@
+[2021-02-19 04:39:35,881] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: parse_goods.run_spider_goods 2021-02-18T00:00:00+00:00 [queued]>
+[2021-02-19 04:39:35,893] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: parse_goods.run_spider_goods 2021-02-18T00:00:00+00:00 [queued]>
+[2021-02-19 04:39:35,893] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-19 04:39:35,893] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2021-02-19 04:39:35,893] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-19 04:39:35,904] {taskinstance.py:900} INFO - Executing <Task(BashOperator): run_spider_goods> on 2021-02-18T00:00:00+00:00
+[2021-02-19 04:39:35,908] {standard_task_runner.py:53} INFO - Started process 7259 to run task
+[2021-02-19 04:39:41,049] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: parse_goods.run_spider_goods 2021-02-18T00:00:00+00:00 [running]> Maxims-MacBook-Air.local
+[2021-02-19 04:39:46,138] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /var/folders/yy/cdksfv594ms0d4n7_jss_mm40000gn/T
+[2021-02-19 04:39:46,142] {bash_operator.py:105} INFO - Temporary script location: /var/folders/yy/cdksfv594ms0d4n7_jss_mm40000gn/T/airflowtmpfetquya7/run_spider_goodsph67_7cm
+[2021-02-19 04:39:46,143] {bash_operator.py:115} INFO - Running command: #!/bin/bash
+
+cd /Users/maxim/PycharmProjects/airflow/dags/parse_goods/scrapAmazon/scrapAmazon/spiders
+scrapy crawl reviewsspider
+[2021-02-19 04:39:46,272] {bash_operator.py:122} INFO - Output:
+[2021-02-19 04:39:50,458] {bash_operator.py:126} INFO - 2021-02-19 04:39:50 [scrapy.utils.log] INFO: Scrapy 2.4.1 started (bot: scrapAmazon)
+[2021-02-19 04:39:50,503] {bash_operator.py:126} INFO - 2021-02-19 04:39:50 [scrapy.utils.log] INFO: Versions: lxml 4.6.2.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.7.8 (v3.7.8:4b47a5b6ba, Jun 27 2020, 04:47:50) - [Clang 6.0 (clang-600.0.57)], pyOpenSSL 20.0.1 (OpenSSL 1.1.1i  8 Dec 2020), cryptography 3.4.3, Platform Darwin-19.6.0-x86_64-i386-64bit
+[2021-02-19 04:39:50,504] {bash_operator.py:126} INFO - 2021-02-19 04:39:50 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+[2021-02-19 04:39:50,518] {bash_operator.py:126} INFO - 2021-02-19 04:39:50 [scrapy.crawler] INFO: Overridden settings:
+[2021-02-19 04:39:50,519] {bash_operator.py:126} INFO - {'AUTOTHROTTLE_ENABLED': True,
+[2021-02-19 04:39:50,520] {bash_operator.py:126} INFO -  'BOT_NAME': 'scrapAmazon',
+[2021-02-19 04:39:50,520] {bash_operator.py:126} INFO -  'FEED_EXPORT_ENCODING': 'utf-8',
+[2021-02-19 04:39:50,521] {bash_operator.py:126} INFO -  'NEWSPIDER_MODULE': 'scrapAmazon.spiders',
+[2021-02-19 04:39:50,522] {bash_operator.py:126} INFO -  'SPIDER_MODULES': ['scrapAmazon.spiders'],
+[2021-02-19 04:39:50,523] {bash_operator.py:126} INFO -  'USER_AGENT': ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) '
+[2021-02-19 04:39:50,524] {bash_operator.py:126} INFO -                 'AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 '
+[2021-02-19 04:39:50,525] {bash_operator.py:126} INFO -                 'Safari/605.1.15',)}
+[2021-02-19 04:39:50,557] {bash_operator.py:126} INFO - 2021-02-19 04:39:50 [scrapy.extensions.telnet] INFO: Telnet Password: 579d18ad5cbbbdf1
+[2021-02-19 04:39:50,593] {bash_operator.py:126} INFO - 2021-02-19 04:39:50 [scrapy.middleware] INFO: Enabled extensions:
+[2021-02-19 04:39:50,594] {bash_operator.py:126} INFO - ['scrapy.extensions.corestats.CoreStats',
+[2021-02-19 04:39:50,595] {bash_operator.py:126} INFO -  'scrapy.extensions.telnet.TelnetConsole',
+[2021-02-19 04:39:50,595] {bash_operator.py:126} INFO -  'scrapy.extensions.memusage.MemoryUsage',
+[2021-02-19 04:39:50,596] {bash_operator.py:126} INFO -  'scrapy.extensions.logstats.LogStats',
+[2021-02-19 04:39:50,597] {bash_operator.py:126} INFO -  'scrapy.extensions.throttle.AutoThrottle']
+[2021-02-19 04:39:50,785] {bash_operator.py:126} INFO - 2021-02-19 04:39:50 [scrapy.middleware] INFO: Enabled downloader middlewares:
+[2021-02-19 04:39:50,786] {bash_operator.py:126} INFO - ['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+[2021-02-19 04:39:50,786] {bash_operator.py:126} INFO -  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+[2021-02-19 04:39:50,787] {bash_operator.py:126} INFO -  'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+[2021-02-19 04:39:50,787] {bash_operator.py:126} INFO -  'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+[2021-02-19 04:39:50,788] {bash_operator.py:126} INFO -  'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+[2021-02-19 04:39:50,788] {bash_operator.py:126} INFO -  'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+[2021-02-19 04:39:50,789] {bash_operator.py:126} INFO -  'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+[2021-02-19 04:39:50,789] {bash_operator.py:126} INFO -  'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+[2021-02-19 04:39:50,790] {bash_operator.py:126} INFO -  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+[2021-02-19 04:39:50,790] {bash_operator.py:126} INFO -  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+[2021-02-19 04:39:50,791] {bash_operator.py:126} INFO -  'scrapy.downloadermiddlewares.stats.DownloaderStats']
+[2021-02-19 04:39:50,792] {bash_operator.py:126} INFO - 2021-02-19 04:39:50 [scrapy.middleware] INFO: Enabled spider middlewares:
+[2021-02-19 04:39:50,793] {bash_operator.py:126} INFO - ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+[2021-02-19 04:39:50,793] {bash_operator.py:126} INFO -  'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+[2021-02-19 04:39:50,794] {bash_operator.py:126} INFO -  'scrapy.spidermiddlewares.referer.RefererMiddleware',
+[2021-02-19 04:39:50,794] {bash_operator.py:126} INFO -  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+[2021-02-19 04:39:50,795] {bash_operator.py:126} INFO -  'scrapy.spidermiddlewares.depth.DepthMiddleware']
+[2021-02-19 04:39:50,796] {bash_operator.py:126} INFO - 2021-02-19 04:39:50 [scrapy.middleware] INFO: Enabled item pipelines:
+[2021-02-19 04:39:50,798] {bash_operator.py:126} INFO - ['scrapAmazon.pipelines.ScrapamazonPipeline']
+[2021-02-19 04:39:50,799] {bash_operator.py:126} INFO - 2021-02-19 04:39:50 [scrapy.core.engine] INFO: Spider opened
+[2021-02-19 04:39:50,876] {bash_operator.py:126} INFO - 2021-02-19 04:39:50 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[2021-02-19 04:39:50,880] {bash_operator.py:126} INFO - 2021-02-19 04:39:50 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+[2021-02-19 04:39:52,805] {bash_operator.py:126} INFO - 2021-02-19 04:39:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://goods.ru/catalog/details/napolnitel-cat-step-selikagelevyy-152-l-100022760079/> (referer: None)
+[2021-02-19 04:39:53,436] {bash_operator.py:126} INFO - 2021-02-19 04:39:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://goods.ru/catalog/details/napolnitel-cat-step-selikagelevyy-152-l-100022760079/>
+[2021-02-19 04:39:53,437] {bash_operator.py:126} INFO - {'date_insert': '2021-02-19',
+[2021-02-19 04:39:53,437] {bash_operator.py:126} INFO -  'id': '100022760079',
+[2021-02-19 04:39:53,438] {bash_operator.py:126} INFO -  'name': 'Впитывающий наполнитель для кошек Cat Step силикагелевый, 7.24 кг, '
+[2021-02-19 04:39:53,439] {bash_operator.py:126} INFO -          '15.2 л',
+[2021-02-19 04:39:53,439] {bash_operator.py:126} INFO -  'price': '1190',
+[2021-02-19 04:39:53,440] {bash_operator.py:126} INFO -  'review_amt': '315'}
+[2021-02-19 04:40:20,819] {bash_operator.py:126} INFO - 2021-02-19 04:40:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://goods.ru/catalog/details/voda-mineralnaya-novoterskaya-gazirovannaya-15-l-plastik-100022961239/> (referer: None)
+[2021-02-19 04:40:20,859] {bash_operator.py:126} INFO - 2021-02-19 04:40:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://goods.ru/catalog/details/smart-chasy-apple-watch-se-44mm-space-gray-aluminium-case-with-black-sport-band-mydt2ru-a-100027259585/> (referer: None)
+[2021-02-19 04:40:21,376] {bash_operator.py:126} INFO - 2021-02-19 04:40:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://goods.ru/catalog/details/voda-mineralnaya-novoterskaya-gazirovannaya-15-l-plastik-100022961239/>
+[2021-02-19 04:40:21,377] {bash_operator.py:126} INFO - {'date_insert': '2021-02-19',
+[2021-02-19 04:40:21,378] {bash_operator.py:126} INFO -  'id': '100022961239',
+[2021-02-19 04:40:21,379] {bash_operator.py:126} INFO -  'name': 'Вода минеральная Новотерская  газированная 1,5 л 6 штук в упаковке '
+[2021-02-19 04:40:21,380] {bash_operator.py:126} INFO -          'пластик',
+[2021-02-19 04:40:21,381] {bash_operator.py:126} INFO -  'price': '294',
+[2021-02-19 04:40:21,381] {bash_operator.py:126} INFO -  'review_amt': '12'}
+[2021-02-19 04:40:21,845] {bash_operator.py:126} INFO - 2021-02-19 04:40:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://goods.ru/catalog/details/smart-chasy-apple-watch-se-44mm-space-gray-aluminium-case-with-black-sport-band-mydt2ru-a-100027259585/>
+[2021-02-19 04:40:21,846] {bash_operator.py:126} INFO - {'date_insert': '2021-02-19',
+[2021-02-19 04:40:21,846] {bash_operator.py:126} INFO -  'id': '100027259585',
+[2021-02-19 04:40:21,847] {bash_operator.py:126} INFO -  'name': 'Смарт-часы Apple Watch SE 44mm Space Grey with Black Sport Band '
+[2021-02-19 04:40:21,848] {bash_operator.py:126} INFO -          '(MYDT2RU/A)',
+[2021-02-19 04:40:21,849] {bash_operator.py:126} INFO -  'price': '27490',
+[2021-02-19 04:40:21,849] {bash_operator.py:126} INFO -  'review_amt': '16'}
+[2021-02-19 04:40:21,853] {bash_operator.py:126} INFO - 2021-02-19 04:40:21 [scrapy.core.engine] INFO: Closing spider (finished)
+[2021-02-19 04:40:21,859] {bash_operator.py:126} INFO - 2021-02-19 04:40:21 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+[2021-02-19 04:40:21,861] {bash_operator.py:126} INFO - {'downloader/request_bytes': 1153,
+[2021-02-19 04:40:21,861] {bash_operator.py:126} INFO -  'downloader/request_count': 3,
+[2021-02-19 04:40:21,862] {bash_operator.py:126} INFO -  'downloader/request_method_count/GET': 3,
+[2021-02-19 04:40:21,863] {bash_operator.py:126} INFO -  'downloader/response_bytes': 513502,
+[2021-02-19 04:40:21,863] {bash_operator.py:126} INFO -  'downloader/response_count': 3,
+[2021-02-19 04:40:21,864] {bash_operator.py:126} INFO -  'downloader/response_status_count/200': 3,
+[2021-02-19 04:40:21,865] {bash_operator.py:126} INFO -  'elapsed_time_seconds': 30.979905,
+[2021-02-19 04:40:21,865] {bash_operator.py:126} INFO -  'finish_reason': 'finished',
+[2021-02-19 04:40:21,866] {bash_operator.py:126} INFO -  'finish_time': datetime.datetime(2021, 2, 19, 1, 40, 21, 855361),
+[2021-02-19 04:40:21,867] {bash_operator.py:126} INFO -  'item_scraped_count': 3,
+[2021-02-19 04:40:21,868] {bash_operator.py:126} INFO -  'log_count/DEBUG': 6,
+[2021-02-19 04:40:21,869] {bash_operator.py:126} INFO -  'log_count/INFO': 10,
+[2021-02-19 04:40:21,870] {bash_operator.py:126} INFO -  'memusage/max': 50450432,
+[2021-02-19 04:40:21,870] {bash_operator.py:126} INFO -  'memusage/startup': 50450432,
+[2021-02-19 04:40:21,870] {bash_operator.py:126} INFO -  'response_received_count': 3,
+[2021-02-19 04:40:21,871] {bash_operator.py:126} INFO -  'scheduler/dequeued': 3,
+[2021-02-19 04:40:21,871] {bash_operator.py:126} INFO -  'scheduler/dequeued/memory': 3,
+[2021-02-19 04:40:21,872] {bash_operator.py:126} INFO -  'scheduler/enqueued': 3,
+[2021-02-19 04:40:21,872] {bash_operator.py:126} INFO -  'scheduler/enqueued/memory': 3,
+[2021-02-19 04:40:21,873] {bash_operator.py:126} INFO -  'start_time': datetime.datetime(2021, 2, 19, 1, 39, 50, 875456)}
+[2021-02-19 04:40:21,874] {bash_operator.py:126} INFO - 2021-02-19 04:40:21 [scrapy.core.engine] INFO: Spider closed (finished)
+[2021-02-19 04:40:21,904] {bash_operator.py:126} INFO - 2021-02-19
+[2021-02-19 04:40:21,905] {bash_operator.py:126} INFO - 100022961239
+[2021-02-19 04:40:21,905] {bash_operator.py:126} INFO - vse_ok
+[2021-02-19 04:40:21,906] {bash_operator.py:126} INFO - 100022760079
+[2021-02-19 04:40:21,906] {bash_operator.py:126} INFO - 100022961239
+[2021-02-19 04:40:21,907] {bash_operator.py:126} INFO - 100027259585
+[2021-02-19 04:40:21,907] {bash_operator.py:126} INFO - 100022760079
+[2021-02-19 04:40:21,908] {bash_operator.py:126} INFO - 100022961239
+[2021-02-19 04:40:21,909] {bash_operator.py:126} INFO - 100027259585
+[2021-02-19 04:40:21,910] {bash_operator.py:126} INFO - 100022760079
+[2021-02-19 04:40:21,910] {bash_operator.py:126} INFO - 100022961239
+[2021-02-19 04:40:21,911] {bash_operator.py:126} INFO - 100027259585
+[2021-02-19 04:40:21,911] {bash_operator.py:126} INFO - 100022760079
+[2021-02-19 04:40:21,912] {bash_operator.py:126} INFO - 100022961239
+[2021-02-19 04:40:21,913] {bash_operator.py:126} INFO - 100027259585
+[2021-02-19 04:40:21,913] {bash_operator.py:126} INFO - 100022760079
+[2021-02-19 04:40:21,914] {bash_operator.py:126} INFO - 100022961239
+[2021-02-19 04:40:21,914] {bash_operator.py:126} INFO - 100027259585
+[2021-02-19 04:40:21,915] {bash_operator.py:126} INFO - 100022760079
+[2021-02-19 04:40:21,916] {bash_operator.py:126} INFO - 100022961239
+[2021-02-19 04:40:21,916] {bash_operator.py:126} INFO - 100027259585
+[2021-02-19 04:40:21,917] {bash_operator.py:126} INFO - 100022760079
+[2021-02-19 04:40:21,918] {bash_operator.py:126} INFO - 100022961239
+[2021-02-19 04:40:21,918] {bash_operator.py:126} INFO - 100027259585
+[2021-02-19 04:40:21,919] {bash_operator.py:126} INFO - 100022760079
+[2021-02-19 04:40:21,919] {bash_operator.py:126} INFO - 100022961239
+[2021-02-19 04:40:21,920] {bash_operator.py:126} INFO - 100027259585
+[2021-02-19 04:40:21,921] {bash_operator.py:126} INFO - 100022760079
+[2021-02-19 04:40:21,921] {bash_operator.py:126} INFO - 100022961239
+[2021-02-19 04:40:21,922] {bash_operator.py:126} INFO - 100027259585
+[2021-02-19 04:40:21,923] {bash_operator.py:126} INFO - 100022760079
+[2021-02-19 04:40:21,923] {bash_operator.py:126} INFO - 100022961239
+[2021-02-19 04:40:21,924] {bash_operator.py:126} INFO - 100027259585
+[2021-02-19 04:40:22,962] {bash_operator.py:130} INFO - Command exited with return code 0
+[2021-02-19 04:40:22,998] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=parse_goods, task_id=run_spider_goods, execution_date=20210218T000000, start_date=20210219T013935, end_date=20210219T014022
+[2021-02-19 04:40:26,601] {logging_mixin.py:112} INFO - [2021-02-19 04:40:26,598] {local_task_job.py:103} INFO - Task exited with return code 0

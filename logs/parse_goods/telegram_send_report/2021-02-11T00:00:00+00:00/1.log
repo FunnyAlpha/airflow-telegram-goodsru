@@ -1,0 +1,21 @@
+[2021-02-12 03:59:06,501] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: parse_goods.telegram_send_report 2021-02-11T00:00:00+00:00 [queued]>
+[2021-02-12 03:59:06,531] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: parse_goods.telegram_send_report 2021-02-11T00:00:00+00:00 [queued]>
+[2021-02-12 03:59:06,531] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-12 03:59:06,531] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2021-02-12 03:59:06,531] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-12 03:59:06,539] {taskinstance.py:900} INFO - Executing <Task(BashOperator): telegram_send_report> on 2021-02-11T00:00:00+00:00
+[2021-02-12 03:59:06,541] {standard_task_runner.py:53} INFO - Started process 34417 to run task
+[2021-02-12 03:59:11,621] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: parse_goods.telegram_send_report 2021-02-11T00:00:00+00:00 [running]> Maxims-MacBook-Air.local
+[2021-02-12 03:59:16,665] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /var/folders/yy/cdksfv594ms0d4n7_jss_mm40000gn/T
+[2021-02-12 03:59:16,668] {bash_operator.py:105} INFO - Temporary script location: /var/folders/yy/cdksfv594ms0d4n7_jss_mm40000gn/T/airflowtmpww1zw9l9/telegram_send_reportyw6e9fxe
+[2021-02-12 03:59:16,668] {bash_operator.py:115} INFO - Running command: #!/bin/bash
+
+cd /Users/maxim/PycharmProjects/airflow/dags/telegram
+python telegram.py
+[2021-02-12 03:59:16,694] {bash_operator.py:122} INFO - Output:
+[2021-02-12 03:59:34,758] {bash_operator.py:130} INFO - Command exited with return code 0
+[2021-02-12 03:59:34,803] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=parse_goods, task_id=telegram_send_report, execution_date=20210211T000000, start_date=20210212T005906, end_date=20210212T005934
+[2021-02-12 03:59:36,846] {logging_mixin.py:112} INFO - [2021-02-12 03:59:36,843] {local_task_job.py:103} INFO - Task exited with return code 0

@@ -1,0 +1,4 @@
+/venv/
+# ingnore config files
+config.json
+

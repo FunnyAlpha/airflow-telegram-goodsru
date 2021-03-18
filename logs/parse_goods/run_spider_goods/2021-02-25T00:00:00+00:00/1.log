@@ -1,0 +1,13 @@
+[2021-02-26 03:16:43,937] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: parse_goods.run_spider_goods 2021-02-25T00:00:00+00:00 [queued]>
+[2021-02-26 03:16:43,960] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: parse_goods.run_spider_goods 2021-02-25T00:00:00+00:00 [queued]>
+[2021-02-26 03:16:43,960] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-26 03:16:43,960] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2021-02-26 03:16:43,960] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-26 03:16:43,969] {taskinstance.py:900} INFO - Executing <Task(BashOperator): run_spider_goods> on 2021-02-25T00:00:00+00:00
+[2021-02-26 03:16:43,972] {standard_task_runner.py:53} INFO - Started process 82725 to run task
+[2021-02-26 05:16:46,013] {logging_mixin.py:112} INFO - [2021-02-26 05:16:46,013] {local_task_job.py:114} ERROR - Heartbeat time limited exceeded!
+[2021-02-26 05:16:46,013] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: parse_goods.run_spider_goods 2021-02-25T00:00:00+00:00 [running]> Maxims-MacBook-Air.local
+[2021-02-26 05:16:46,039] {helpers.py:325} INFO - Sending Signals.SIGTERM to GPID 82725
+[2021-02-26 05:16:46,743] {helpers.py:291} INFO - Process psutil.Process(pid=82725, status='terminated') (82725) terminated with exit code -15

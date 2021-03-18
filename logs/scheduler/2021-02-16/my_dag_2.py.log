@@ -1,0 +1,755 @@
+[2021-02-16 03:14:19,710] {scheduler_job.py:154} INFO - Started process (PID=85523) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:14:24,728] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 03:14:24,731] {logging_mixin.py:112} INFO - [2021-02-16 03:14:24,730] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:14:24,758] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:14:24,855] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.145 seconds
+[2021-02-16 03:17:13,039] {scheduler_job.py:154} INFO - Started process (PID=85656) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:17:18,051] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 03:17:18,054] {logging_mixin.py:112} INFO - [2021-02-16 03:17:18,053] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:17:18,068] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:17:18,125] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.085 seconds
+[2021-02-16 03:19:59,130] {scheduler_job.py:154} INFO - Started process (PID=85736) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:20:04,142] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 03:20:04,144] {logging_mixin.py:112} INFO - [2021-02-16 03:20:04,144] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:20:04,168] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:20:04,222] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.091 seconds
+[2021-02-16 03:22:18,670] {scheduler_job.py:154} INFO - Started process (PID=85778) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:22:23,679] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 03:22:23,681] {logging_mixin.py:112} INFO - [2021-02-16 03:22:23,680] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:22:23,703] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:22:23,757] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.088 seconds
+[2021-02-16 03:24:38,306] {scheduler_job.py:154} INFO - Started process (PID=85825) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:24:43,317] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 03:24:43,321] {logging_mixin.py:112} INFO - [2021-02-16 03:24:43,320] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:24:43,334] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:24:43,372] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.066 seconds
+[2021-02-16 03:26:58,061] {scheduler_job.py:154} INFO - Started process (PID=85872) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:27:03,072] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 03:27:03,074] {logging_mixin.py:112} INFO - [2021-02-16 03:27:03,073] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:27:03,089] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:27:03,128] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.067 seconds
+[2021-02-16 03:29:17,965] {scheduler_job.py:154} INFO - Started process (PID=85912) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:29:22,978] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 03:29:22,979] {logging_mixin.py:112} INFO - [2021-02-16 03:29:22,979] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:29:22,995] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:29:23,051] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.086 seconds
+[2021-02-16 03:31:37,738] {scheduler_job.py:154} INFO - Started process (PID=85972) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:31:42,753] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 03:31:42,755] {logging_mixin.py:112} INFO - [2021-02-16 03:31:42,754] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:31:42,770] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:31:42,812] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.074 seconds
+[2021-02-16 03:33:57,369] {scheduler_job.py:154} INFO - Started process (PID=86016) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:34:02,380] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 03:34:02,383] {logging_mixin.py:112} INFO - [2021-02-16 03:34:02,382] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:34:02,405] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:34:02,446] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.077 seconds
+[2021-02-16 03:36:16,967] {scheduler_job.py:154} INFO - Started process (PID=86087) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:36:21,975] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 03:36:21,978] {logging_mixin.py:112} INFO - [2021-02-16 03:36:21,977] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:36:21,992] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:36:22,022] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.055 seconds
+[2021-02-16 03:38:36,428] {scheduler_job.py:154} INFO - Started process (PID=86128) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:38:41,444] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 03:38:41,446] {logging_mixin.py:112} INFO - [2021-02-16 03:38:41,446] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:38:41,457] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:38:41,496] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.067 seconds
+[2021-02-16 03:40:56,298] {scheduler_job.py:154} INFO - Started process (PID=86162) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:41:01,315] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 03:41:01,317] {logging_mixin.py:112} INFO - [2021-02-16 03:41:01,317] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:41:01,339] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:41:01,377] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.079 seconds
+[2021-02-16 03:43:16,099] {scheduler_job.py:154} INFO - Started process (PID=86212) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:43:21,121] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 03:43:21,124] {logging_mixin.py:112} INFO - [2021-02-16 03:43:21,123] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:43:21,137] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:43:21,169] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.071 seconds
+[2021-02-16 03:45:35,962] {scheduler_job.py:154} INFO - Started process (PID=86254) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:45:40,973] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 03:45:40,975] {logging_mixin.py:112} INFO - [2021-02-16 03:45:40,974] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:45:40,997] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:45:41,036] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.074 seconds
+[2021-02-16 03:47:55,664] {scheduler_job.py:154} INFO - Started process (PID=86296) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:48:00,678] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 03:48:00,680] {logging_mixin.py:112} INFO - [2021-02-16 03:48:00,680] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:48:00,705] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:48:00,749] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.086 seconds
+[2021-02-16 03:50:15,595] {scheduler_job.py:154} INFO - Started process (PID=86329) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:50:20,607] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 03:50:20,609] {logging_mixin.py:112} INFO - [2021-02-16 03:50:20,608] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:50:20,631] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:50:20,671] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.076 seconds
+[2021-02-16 03:52:35,359] {scheduler_job.py:154} INFO - Started process (PID=86378) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:52:40,382] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 03:52:40,384] {logging_mixin.py:112} INFO - [2021-02-16 03:52:40,383] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:52:40,407] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:52:40,440] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.081 seconds
+[2021-02-16 03:54:55,346] {scheduler_job.py:154} INFO - Started process (PID=86414) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:55:00,355] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 03:55:00,358] {logging_mixin.py:112} INFO - [2021-02-16 03:55:00,357] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:55:00,382] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:55:00,431] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.085 seconds
+[2021-02-16 03:57:15,210] {scheduler_job.py:154} INFO - Started process (PID=86450) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:57:20,220] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 03:57:20,221] {logging_mixin.py:112} INFO - [2021-02-16 03:57:20,221] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:57:20,232] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:57:20,271] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.061 seconds
+[2021-02-16 03:59:34,973] {scheduler_job.py:154} INFO - Started process (PID=86485) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:59:39,987] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 03:59:39,989] {logging_mixin.py:112} INFO - [2021-02-16 03:59:39,989] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:59:40,004] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 03:59:40,037] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.064 seconds
+[2021-02-16 04:01:54,996] {scheduler_job.py:154} INFO - Started process (PID=86528) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:02:00,015] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:02:00,016] {logging_mixin.py:112} INFO - [2021-02-16 04:02:00,016] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:02:00,044] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:02:00,089] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.093 seconds
+[2021-02-16 04:04:14,978] {scheduler_job.py:154} INFO - Started process (PID=86579) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:04:19,989] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:04:19,990] {logging_mixin.py:112} INFO - [2021-02-16 04:04:19,990] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:04:20,000] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:04:20,034] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.057 seconds
+[2021-02-16 04:06:34,571] {scheduler_job.py:154} INFO - Started process (PID=86724) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:06:39,589] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:06:39,590] {logging_mixin.py:112} INFO - [2021-02-16 04:06:39,590] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:06:39,609] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:06:39,645] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.074 seconds
+[2021-02-16 04:08:54,236] {scheduler_job.py:154} INFO - Started process (PID=86767) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:08:59,255] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:08:59,259] {logging_mixin.py:112} INFO - [2021-02-16 04:08:59,258] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:08:59,286] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:08:59,328] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.092 seconds
+[2021-02-16 04:11:13,906] {scheduler_job.py:154} INFO - Started process (PID=86812) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:11:18,921] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:11:18,923] {logging_mixin.py:112} INFO - [2021-02-16 04:11:18,922] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:11:18,937] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:11:18,976] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.070 seconds
+[2021-02-16 04:13:33,641] {scheduler_job.py:154} INFO - Started process (PID=86851) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:13:38,659] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:13:38,662] {logging_mixin.py:112} INFO - [2021-02-16 04:13:38,662] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:13:38,674] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:13:38,715] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.074 seconds
+[2021-02-16 04:15:53,754] {scheduler_job.py:154} INFO - Started process (PID=87347) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:15:58,765] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:15:58,767] {logging_mixin.py:112} INFO - [2021-02-16 04:15:58,766] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:15:58,781] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:15:58,809] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.055 seconds
+[2021-02-16 04:18:13,324] {scheduler_job.py:154} INFO - Started process (PID=87385) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:18:18,341] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:18:18,343] {logging_mixin.py:112} INFO - [2021-02-16 04:18:18,343] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:18:18,367] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:18:18,396] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.072 seconds
+[2021-02-16 04:20:32,987] {scheduler_job.py:154} INFO - Started process (PID=87418) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:20:38,001] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:20:38,003] {logging_mixin.py:112} INFO - [2021-02-16 04:20:38,002] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:20:38,019] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:20:38,096] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.109 seconds
+[2021-02-16 04:22:52,612] {scheduler_job.py:154} INFO - Started process (PID=87462) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:22:57,630] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:22:57,640] {logging_mixin.py:112} INFO - [2021-02-16 04:22:57,639] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:22:57,650] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:22:57,679] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.068 seconds
+[2021-02-16 04:25:12,306] {scheduler_job.py:154} INFO - Started process (PID=87497) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:25:17,330] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:25:17,332] {logging_mixin.py:112} INFO - [2021-02-16 04:25:17,332] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:25:17,355] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:25:17,389] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.083 seconds
+[2021-02-16 04:27:31,966] {scheduler_job.py:154} INFO - Started process (PID=87545) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:27:36,983] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:27:36,985] {logging_mixin.py:112} INFO - [2021-02-16 04:27:36,984] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:27:36,999] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:27:37,036] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.070 seconds
+[2021-02-16 04:29:51,590] {scheduler_job.py:154} INFO - Started process (PID=87583) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:29:56,603] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:29:56,605] {logging_mixin.py:112} INFO - [2021-02-16 04:29:56,604] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:29:56,627] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:29:56,657] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.067 seconds
+[2021-02-16 04:32:11,277] {scheduler_job.py:154} INFO - Started process (PID=87628) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:32:16,296] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:32:16,298] {logging_mixin.py:112} INFO - [2021-02-16 04:32:16,297] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:32:16,315] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:32:16,346] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.070 seconds
+[2021-02-16 04:34:31,196] {scheduler_job.py:154} INFO - Started process (PID=87674) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:34:36,214] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:34:36,216] {logging_mixin.py:112} INFO - [2021-02-16 04:34:36,215] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:34:36,230] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:34:36,272] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.076 seconds
+[2021-02-16 04:36:50,771] {scheduler_job.py:154} INFO - Started process (PID=87711) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:36:55,801] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:36:55,804] {logging_mixin.py:112} INFO - [2021-02-16 04:36:55,803] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:36:55,821] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:36:55,852] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.082 seconds
+[2021-02-16 04:39:10,298] {scheduler_job.py:154} INFO - Started process (PID=87752) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:39:15,310] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:39:15,311] {logging_mixin.py:112} INFO - [2021-02-16 04:39:15,311] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:39:15,332] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:39:15,364] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.066 seconds
+[2021-02-16 04:41:30,028] {scheduler_job.py:154} INFO - Started process (PID=87786) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:41:35,039] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:41:35,041] {logging_mixin.py:112} INFO - [2021-02-16 04:41:35,040] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:41:35,061] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:41:35,092] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.065 seconds
+[2021-02-16 04:43:49,575] {scheduler_job.py:154} INFO - Started process (PID=87830) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:43:54,593] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:43:54,595] {logging_mixin.py:112} INFO - [2021-02-16 04:43:54,595] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:43:54,620] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:43:54,649] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.074 seconds
+[2021-02-16 04:46:09,133] {scheduler_job.py:154} INFO - Started process (PID=87869) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:46:14,148] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:46:14,150] {logging_mixin.py:112} INFO - [2021-02-16 04:46:14,149] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:46:14,175] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:46:14,207] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.074 seconds
+[2021-02-16 04:48:28,670] {scheduler_job.py:154} INFO - Started process (PID=87905) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:48:33,687] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:48:33,689] {logging_mixin.py:112} INFO - [2021-02-16 04:48:33,688] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:48:33,711] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:48:33,764] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.094 seconds
+[2021-02-16 04:50:48,639] {scheduler_job.py:154} INFO - Started process (PID=87940) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:50:53,656] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:50:53,658] {logging_mixin.py:112} INFO - [2021-02-16 04:50:53,657] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:50:53,676] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:50:53,707] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.068 seconds
+[2021-02-16 04:53:08,318] {scheduler_job.py:154} INFO - Started process (PID=87982) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:53:13,337] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:53:13,341] {logging_mixin.py:112} INFO - [2021-02-16 04:53:13,340] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:53:13,356] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:53:13,386] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.067 seconds
+[2021-02-16 04:55:28,000] {scheduler_job.py:154} INFO - Started process (PID=88018) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:55:33,020] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:55:33,021] {logging_mixin.py:112} INFO - [2021-02-16 04:55:33,021] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:55:33,041] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:55:33,077] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.078 seconds
+[2021-02-16 04:57:47,535] {scheduler_job.py:154} INFO - Started process (PID=88056) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:57:52,545] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 04:57:52,546] {logging_mixin.py:112} INFO - [2021-02-16 04:57:52,546] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:57:52,567] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 04:57:52,598] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.064 seconds
+[2021-02-16 05:00:07,367] {scheduler_job.py:154} INFO - Started process (PID=88092) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:00:12,384] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:00:12,386] {logging_mixin.py:112} INFO - [2021-02-16 05:00:12,386] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:00:12,408] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:00:12,436] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.068 seconds
+[2021-02-16 05:02:26,832] {scheduler_job.py:154} INFO - Started process (PID=88132) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:02:31,851] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:02:31,853] {logging_mixin.py:112} INFO - [2021-02-16 05:02:31,852] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:02:31,873] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:02:31,917] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.085 seconds
+[2021-02-16 05:04:46,472] {scheduler_job.py:154} INFO - Started process (PID=88179) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:04:51,495] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:04:51,496] {logging_mixin.py:112} INFO - [2021-02-16 05:04:51,496] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:04:51,517] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:04:51,552] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.080 seconds
+[2021-02-16 05:07:06,154] {scheduler_job.py:154} INFO - Started process (PID=88224) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:07:11,171] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:07:11,181] {logging_mixin.py:112} INFO - [2021-02-16 05:07:11,180] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:07:11,196] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:07:11,225] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.071 seconds
+[2021-02-16 05:09:25,801] {scheduler_job.py:154} INFO - Started process (PID=88261) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:09:30,818] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:09:30,819] {logging_mixin.py:112} INFO - [2021-02-16 05:09:30,819] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:09:30,840] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:09:30,871] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.071 seconds
+[2021-02-16 05:11:45,386] {scheduler_job.py:154} INFO - Started process (PID=88301) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:11:50,408] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:11:50,412] {logging_mixin.py:112} INFO - [2021-02-16 05:11:50,411] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:11:50,427] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:11:50,483] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.096 seconds
+[2021-02-16 05:14:05,925] {scheduler_job.py:154} INFO - Started process (PID=88341) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:14:10,944] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:14:10,946] {logging_mixin.py:112} INFO - [2021-02-16 05:14:10,945] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:14:10,971] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:14:10,997] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.071 seconds
+[2021-02-16 05:16:25,610] {scheduler_job.py:154} INFO - Started process (PID=88381) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:16:30,622] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:16:30,624] {logging_mixin.py:112} INFO - [2021-02-16 05:16:30,623] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:16:30,648] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:16:30,681] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.071 seconds
+[2021-02-16 05:18:45,122] {scheduler_job.py:154} INFO - Started process (PID=88418) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:18:50,137] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:18:50,140] {logging_mixin.py:112} INFO - [2021-02-16 05:18:50,139] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:18:50,160] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:18:50,187] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.065 seconds
+[2021-02-16 05:21:04,815] {scheduler_job.py:154} INFO - Started process (PID=88450) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:21:09,833] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:21:09,837] {logging_mixin.py:112} INFO - [2021-02-16 05:21:09,836] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:21:09,858] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:21:09,891] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.076 seconds
+[2021-02-16 05:23:24,351] {scheduler_job.py:154} INFO - Started process (PID=88493) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:23:29,366] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:23:29,368] {logging_mixin.py:112} INFO - [2021-02-16 05:23:29,367] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:23:29,380] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:23:29,408] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.057 seconds
+[2021-02-16 05:25:43,973] {scheduler_job.py:154} INFO - Started process (PID=88528) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:25:48,990] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:25:48,993] {logging_mixin.py:112} INFO - [2021-02-16 05:25:48,992] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:25:49,008] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:25:49,043] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.070 seconds
+[2021-02-16 05:28:03,518] {scheduler_job.py:154} INFO - Started process (PID=88564) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:28:08,535] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:28:08,537] {logging_mixin.py:112} INFO - [2021-02-16 05:28:08,537] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:28:08,551] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:28:08,594] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.076 seconds
+[2021-02-16 05:30:23,169] {scheduler_job.py:154} INFO - Started process (PID=88603) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:30:28,185] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:30:28,186] {logging_mixin.py:112} INFO - [2021-02-16 05:30:28,186] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:30:28,196] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:30:28,235] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.066 seconds
+[2021-02-16 05:32:42,806] {scheduler_job.py:154} INFO - Started process (PID=88643) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:32:47,823] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:32:47,825] {logging_mixin.py:112} INFO - [2021-02-16 05:32:47,824] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:32:47,847] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:32:47,877] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.071 seconds
+[2021-02-16 05:35:02,459] {scheduler_job.py:154} INFO - Started process (PID=88677) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:35:07,472] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:35:07,473] {logging_mixin.py:112} INFO - [2021-02-16 05:35:07,473] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:35:07,484] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:35:07,524] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.065 seconds
+[2021-02-16 05:37:21,920] {scheduler_job.py:154} INFO - Started process (PID=88716) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:37:26,934] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:37:26,936] {logging_mixin.py:112} INFO - [2021-02-16 05:37:26,935] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:37:26,960] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:37:26,992] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.072 seconds
+[2021-02-16 05:39:42,297] {scheduler_job.py:154} INFO - Started process (PID=88755) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:39:47,330] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:39:47,336] {logging_mixin.py:112} INFO - [2021-02-16 05:39:47,333] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:39:47,372] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:39:47,507] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.210 seconds
+[2021-02-16 05:42:08,048] {scheduler_job.py:154} INFO - Started process (PID=88799) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:42:13,068] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:42:13,071] {logging_mixin.py:112} INFO - [2021-02-16 05:42:13,070] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:42:13,108] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:42:13,208] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.160 seconds
+[2021-02-16 05:44:32,952] {scheduler_job.py:154} INFO - Started process (PID=88837) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:44:37,992] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:44:37,999] {logging_mixin.py:112} INFO - [2021-02-16 05:44:37,995] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:44:38,051] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:44:38,145] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.194 seconds
+[2021-02-16 05:46:58,157] {scheduler_job.py:154} INFO - Started process (PID=88885) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:47:03,204] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:47:03,212] {logging_mixin.py:112} INFO - [2021-02-16 05:47:03,208] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:47:03,259] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:47:03,422] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.265 seconds
+[2021-02-16 05:49:23,129] {scheduler_job.py:154} INFO - Started process (PID=88919) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:49:28,156] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 05:49:28,162] {logging_mixin.py:112} INFO - [2021-02-16 05:49:28,160] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:49:28,198] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 05:49:28,289] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.160 seconds
+[2021-02-16 18:40:27,386] {scheduler_job.py:154} INFO - Started process (PID=89070) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:40:32,403] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 18:40:32,406] {logging_mixin.py:112} INFO - [2021-02-16 18:40:32,405] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:40:32,423] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:40:32,527] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.140 seconds
+[2021-02-16 18:42:48,389] {scheduler_job.py:154} INFO - Started process (PID=89137) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:42:53,402] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 18:42:53,403] {logging_mixin.py:112} INFO - [2021-02-16 18:42:53,403] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:42:53,416] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:42:53,480] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.091 seconds
+[2021-02-16 18:45:08,452] {scheduler_job.py:154} INFO - Started process (PID=89193) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:45:13,464] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 18:45:13,465] {logging_mixin.py:112} INFO - [2021-02-16 18:45:13,465] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:45:13,487] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:45:13,542] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.091 seconds
+[2021-02-16 18:47:27,923] {scheduler_job.py:154} INFO - Started process (PID=89236) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:47:32,946] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 18:47:32,950] {logging_mixin.py:112} INFO - [2021-02-16 18:47:32,948] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:47:32,961] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:47:33,021] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.097 seconds
+[2021-02-16 18:49:48,207] {scheduler_job.py:154} INFO - Started process (PID=89285) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:49:53,223] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 18:49:53,225] {logging_mixin.py:112} INFO - [2021-02-16 18:49:53,224] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:49:53,244] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:49:53,299] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.092 seconds
+[2021-02-16 18:52:08,195] {scheduler_job.py:154} INFO - Started process (PID=89328) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:52:13,210] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 18:52:13,213] {logging_mixin.py:112} INFO - [2021-02-16 18:52:13,212] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:52:13,231] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:52:13,280] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.086 seconds
+[2021-02-16 18:54:27,984] {scheduler_job.py:154} INFO - Started process (PID=89367) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:54:33,000] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 18:54:33,002] {logging_mixin.py:112} INFO - [2021-02-16 18:54:33,001] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:54:33,019] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:54:33,079] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.095 seconds
+[2021-02-16 18:56:47,773] {scheduler_job.py:154} INFO - Started process (PID=89539) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:56:52,786] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 18:56:52,788] {logging_mixin.py:112} INFO - [2021-02-16 18:56:52,788] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:56:52,813] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:56:52,855] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.082 seconds
+[2021-02-16 18:59:07,668] {scheduler_job.py:154} INFO - Started process (PID=89581) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:59:12,682] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 18:59:12,684] {logging_mixin.py:112} INFO - [2021-02-16 18:59:12,683] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:59:12,704] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 18:59:12,746] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.078 seconds
+[2021-02-16 19:01:27,546] {scheduler_job.py:154} INFO - Started process (PID=89616) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:01:32,564] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:01:32,565] {logging_mixin.py:112} INFO - [2021-02-16 19:01:32,565] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:01:32,579] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:01:32,620] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.075 seconds
+[2021-02-16 19:03:47,295] {scheduler_job.py:154} INFO - Started process (PID=89657) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:03:52,317] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:03:52,318] {logging_mixin.py:112} INFO - [2021-02-16 19:03:52,318] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:03:52,341] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:03:52,378] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.083 seconds
+[2021-02-16 19:06:07,058] {scheduler_job.py:154} INFO - Started process (PID=89692) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:06:12,071] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:06:12,081] {logging_mixin.py:112} INFO - [2021-02-16 19:06:12,080] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:06:12,097] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:06:12,130] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.072 seconds
+[2021-02-16 19:08:26,613] {scheduler_job.py:154} INFO - Started process (PID=89730) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:08:31,627] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:08:31,630] {logging_mixin.py:112} INFO - [2021-02-16 19:08:31,630] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:08:31,646] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:08:31,689] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.076 seconds
+[2021-02-16 19:10:46,361] {scheduler_job.py:154} INFO - Started process (PID=89765) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:10:51,371] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:10:51,373] {logging_mixin.py:112} INFO - [2021-02-16 19:10:51,373] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:10:51,395] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:10:51,428] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.067 seconds
+[2021-02-16 19:13:05,886] {scheduler_job.py:154} INFO - Started process (PID=89809) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:13:10,896] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:13:10,898] {logging_mixin.py:112} INFO - [2021-02-16 19:13:10,897] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:13:10,918] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:13:10,966] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.080 seconds
+[2021-02-16 19:15:25,738] {scheduler_job.py:154} INFO - Started process (PID=89841) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:15:30,754] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:15:30,756] {logging_mixin.py:112} INFO - [2021-02-16 19:15:30,755] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:15:30,778] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:15:30,823] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.086 seconds
+[2021-02-16 19:17:45,552] {scheduler_job.py:154} INFO - Started process (PID=89881) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:17:50,565] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:17:50,566] {logging_mixin.py:112} INFO - [2021-02-16 19:17:50,565] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:17:50,579] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:17:50,613] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.061 seconds
+[2021-02-16 19:20:05,267] {scheduler_job.py:154} INFO - Started process (PID=89924) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:20:10,284] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:20:10,285] {logging_mixin.py:112} INFO - [2021-02-16 19:20:10,285] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:20:10,301] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:20:10,337] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.070 seconds
+[2021-02-16 19:22:24,769] {scheduler_job.py:154} INFO - Started process (PID=89962) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:22:29,780] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:22:29,782] {logging_mixin.py:112} INFO - [2021-02-16 19:22:29,782] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:22:29,805] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:22:29,838] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.069 seconds
+[2021-02-16 19:24:44,418] {scheduler_job.py:154} INFO - Started process (PID=89995) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:24:49,437] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:24:49,439] {logging_mixin.py:112} INFO - [2021-02-16 19:24:49,439] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:24:49,451] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:24:49,492] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.074 seconds
+[2021-02-16 19:27:04,053] {scheduler_job.py:154} INFO - Started process (PID=90035) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:27:09,068] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:27:09,070] {logging_mixin.py:112} INFO - [2021-02-16 19:27:09,069] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:27:09,094] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:27:09,136] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.082 seconds
+[2021-02-16 19:29:23,677] {scheduler_job.py:154} INFO - Started process (PID=90083) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:29:28,695] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:29:28,697] {logging_mixin.py:112} INFO - [2021-02-16 19:29:28,697] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:29:28,712] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:29:28,764] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.086 seconds
+[2021-02-16 19:31:43,747] {scheduler_job.py:154} INFO - Started process (PID=90120) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:31:48,766] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:31:48,767] {logging_mixin.py:112} INFO - [2021-02-16 19:31:48,767] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:31:48,790] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:31:48,837] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.091 seconds
+[2021-02-16 19:34:03,749] {scheduler_job.py:154} INFO - Started process (PID=90174) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:34:08,767] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:34:08,769] {logging_mixin.py:112} INFO - [2021-02-16 19:34:08,768] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:34:08,782] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:34:08,825] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.076 seconds
+[2021-02-16 19:36:23,624] {scheduler_job.py:154} INFO - Started process (PID=90207) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:36:28,646] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:36:28,648] {logging_mixin.py:112} INFO - [2021-02-16 19:36:28,647] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:36:28,667] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:36:28,714] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.090 seconds
+[2021-02-16 19:38:43,408] {scheduler_job.py:154} INFO - Started process (PID=90247) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:38:48,425] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:38:48,427] {logging_mixin.py:112} INFO - [2021-02-16 19:38:48,426] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:38:48,450] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:38:48,494] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.087 seconds
+[2021-02-16 19:41:03,045] {scheduler_job.py:154} INFO - Started process (PID=90283) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:41:08,066] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:41:08,075] {logging_mixin.py:112} INFO - [2021-02-16 19:41:08,074] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:41:08,085] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:41:08,124] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.079 seconds
+[2021-02-16 19:43:22,978] {scheduler_job.py:154} INFO - Started process (PID=90326) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:43:27,991] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:43:27,993] {logging_mixin.py:112} INFO - [2021-02-16 19:43:27,992] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:43:28,014] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:43:28,067] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.089 seconds
+[2021-02-16 19:45:42,686] {scheduler_job.py:154} INFO - Started process (PID=90359) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:45:47,708] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:45:47,710] {logging_mixin.py:112} INFO - [2021-02-16 19:45:47,710] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:45:47,734] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:45:47,773] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.087 seconds
+[2021-02-16 19:48:02,321] {scheduler_job.py:154} INFO - Started process (PID=90397) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:48:07,337] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:48:07,340] {logging_mixin.py:112} INFO - [2021-02-16 19:48:07,338] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:48:07,364] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:48:07,409] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.088 seconds
+[2021-02-16 19:50:22,084] {scheduler_job.py:154} INFO - Started process (PID=90444) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:50:27,098] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:50:27,101] {logging_mixin.py:112} INFO - [2021-02-16 19:50:27,100] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:50:27,123] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:50:27,156] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.072 seconds
+[2021-02-16 19:52:41,973] {scheduler_job.py:154} INFO - Started process (PID=90489) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:52:46,990] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:52:46,992] {logging_mixin.py:112} INFO - [2021-02-16 19:52:46,991] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:52:47,018] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:52:47,050] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.077 seconds
+[2021-02-16 19:55:01,760] {scheduler_job.py:154} INFO - Started process (PID=90522) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:55:06,776] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:55:06,778] {logging_mixin.py:112} INFO - [2021-02-16 19:55:06,778] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:55:06,797] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:55:06,842] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.082 seconds
+[2021-02-16 19:57:21,362] {scheduler_job.py:154} INFO - Started process (PID=90562) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:57:26,371] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:57:26,373] {logging_mixin.py:112} INFO - [2021-02-16 19:57:26,372] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:57:26,394] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:57:26,424] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.062 seconds
+[2021-02-16 19:59:40,602] {scheduler_job.py:154} INFO - Started process (PID=90599) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:59:45,611] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 19:59:45,612] {logging_mixin.py:112} INFO - [2021-02-16 19:59:45,612] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:59:45,622] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 19:59:45,655] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.053 seconds
+[2021-02-16 20:01:59,994] {scheduler_job.py:154} INFO - Started process (PID=90639) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 20:02:05,005] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 20:02:05,007] {logging_mixin.py:112} INFO - [2021-02-16 20:02:05,006] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 20:02:05,020] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 20:02:05,056] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.062 seconds
+[2021-02-16 20:04:19,221] {scheduler_job.py:154} INFO - Started process (PID=91132) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 20:04:24,238] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 20:04:24,240] {logging_mixin.py:112} INFO - [2021-02-16 20:04:24,239] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 20:04:24,253] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 20:04:24,286] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.064 seconds
+[2021-02-16 20:06:38,410] {scheduler_job.py:154} INFO - Started process (PID=91201) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 20:06:43,423] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 20:06:43,425] {logging_mixin.py:112} INFO - [2021-02-16 20:06:43,424] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 20:06:43,447] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 20:06:43,479] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.069 seconds
+[2021-02-16 20:08:56,896] {scheduler_job.py:154} INFO - Started process (PID=91237) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 20:09:01,906] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 20:09:01,908] {logging_mixin.py:112} INFO - [2021-02-16 20:09:01,907] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 20:09:01,927] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 20:09:01,960] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.064 seconds
+[2021-02-16 20:11:15,807] {scheduler_job.py:154} INFO - Started process (PID=91279) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 20:11:20,827] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 20:11:20,837] {logging_mixin.py:112} INFO - [2021-02-16 20:11:20,836] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 20:11:20,854] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 20:11:20,892] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.084 seconds
+[2021-02-16 23:13:36,454] {scheduler_job.py:154} INFO - Started process (PID=91343) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 23:13:41,349] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-16 23:13:41,354] {logging_mixin.py:112} INFO - [2021-02-16 23:13:41,353] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 23:13:41,378] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-16 23:13:41,468] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.014 seconds
+[2021-02-17 00:48:10,307] {scheduler_job.py:154} INFO - Started process (PID=91588) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 00:48:15,319] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 00:48:15,323] {logging_mixin.py:112} INFO - [2021-02-17 00:48:15,322] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 00:48:15,341] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 00:48:15,396] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.089 seconds
+[2021-02-17 00:50:29,867] {scheduler_job.py:154} INFO - Started process (PID=91673) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 00:50:34,876] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 00:50:34,878] {logging_mixin.py:112} INFO - [2021-02-17 00:50:34,877] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 00:50:34,901] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 00:50:34,954] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.087 seconds
+[2021-02-17 00:52:50,931] {scheduler_job.py:154} INFO - Started process (PID=91752) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 00:52:55,948] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 00:52:55,951] {logging_mixin.py:112} INFO - [2021-02-17 00:52:55,950] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 00:52:55,970] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 00:52:56,041] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.111 seconds
+[2021-02-17 00:55:10,621] {scheduler_job.py:154} INFO - Started process (PID=91790) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 00:55:15,630] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 00:55:15,632] {logging_mixin.py:112} INFO - [2021-02-17 00:55:15,632] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 00:55:15,655] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 00:55:15,693] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.073 seconds
+[2021-02-17 00:57:30,926] {scheduler_job.py:154} INFO - Started process (PID=91883) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 00:57:35,950] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 00:57:35,954] {logging_mixin.py:112} INFO - [2021-02-17 00:57:35,953] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 00:57:35,984] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 00:57:36,057] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.131 seconds
+[2021-02-17 00:59:50,871] {scheduler_job.py:154} INFO - Started process (PID=91970) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 00:59:55,883] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 00:59:55,885] {logging_mixin.py:112} INFO - [2021-02-17 00:59:55,885] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 00:59:55,900] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 00:59:55,944] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.073 seconds
+[2021-02-17 01:02:11,207] {scheduler_job.py:154} INFO - Started process (PID=92032) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:02:16,222] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:02:16,224] {logging_mixin.py:112} INFO - [2021-02-17 01:02:16,223] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:02:16,238] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:02:16,291] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.084 seconds
+[2021-02-17 01:04:31,177] {scheduler_job.py:154} INFO - Started process (PID=92112) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:04:36,185] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:04:36,187] {logging_mixin.py:112} INFO - [2021-02-17 01:04:36,187] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:04:36,202] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:04:36,255] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.078 seconds
+[2021-02-17 01:06:50,776] {scheduler_job.py:154} INFO - Started process (PID=92172) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:06:55,791] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:06:55,794] {logging_mixin.py:112} INFO - [2021-02-17 01:06:55,793] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:06:55,815] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:06:55,871] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.095 seconds
+[2021-02-17 01:09:10,881] {scheduler_job.py:154} INFO - Started process (PID=92297) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:09:15,893] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:09:15,895] {logging_mixin.py:112} INFO - [2021-02-17 01:09:15,894] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:09:15,910] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:09:15,946] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.065 seconds
+[2021-02-17 01:11:30,597] {scheduler_job.py:154} INFO - Started process (PID=92338) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:11:35,606] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:11:35,608] {logging_mixin.py:112} INFO - [2021-02-17 01:11:35,607] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:11:35,622] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:11:35,683] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.086 seconds
+[2021-02-17 01:13:50,259] {scheduler_job.py:154} INFO - Started process (PID=92451) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:13:55,273] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:13:55,274] {logging_mixin.py:112} INFO - [2021-02-17 01:13:55,274] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:13:55,296] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:13:55,370] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.112 seconds
+[2021-02-17 01:16:10,156] {scheduler_job.py:154} INFO - Started process (PID=92497) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:16:15,169] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:16:15,171] {logging_mixin.py:112} INFO - [2021-02-17 01:16:15,170] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:16:15,185] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:16:15,226] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.070 seconds
+[2021-02-17 01:18:29,986] {scheduler_job.py:154} INFO - Started process (PID=92537) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:18:34,993] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:18:34,995] {logging_mixin.py:112} INFO - [2021-02-17 01:18:34,994] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:18:35,018] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:18:35,059] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.073 seconds
+[2021-02-17 01:20:49,740] {scheduler_job.py:154} INFO - Started process (PID=92590) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:20:54,752] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:20:54,754] {logging_mixin.py:112} INFO - [2021-02-17 01:20:54,753] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:20:54,766] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:20:54,809] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.070 seconds
+[2021-02-17 01:23:09,550] {scheduler_job.py:154} INFO - Started process (PID=92647) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:23:14,560] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:23:14,561] {logging_mixin.py:112} INFO - [2021-02-17 01:23:14,561] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:23:14,583] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:23:14,622] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.072 seconds
+[2021-02-17 01:25:28,926] {scheduler_job.py:154} INFO - Started process (PID=92682) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:25:33,940] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:25:33,942] {logging_mixin.py:112} INFO - [2021-02-17 01:25:33,942] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:25:33,966] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:25:34,010] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.083 seconds
+[2021-02-17 01:27:48,488] {scheduler_job.py:154} INFO - Started process (PID=92832) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:27:53,501] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:27:53,512] {logging_mixin.py:112} INFO - [2021-02-17 01:27:53,511] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:27:53,527] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:27:53,566] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.078 seconds
+[2021-02-17 01:30:08,049] {scheduler_job.py:154} INFO - Started process (PID=92873) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:30:13,066] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:30:13,069] {logging_mixin.py:112} INFO - [2021-02-17 01:30:13,068] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:30:13,096] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:30:13,142] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.094 seconds
+[2021-02-17 01:32:27,734] {scheduler_job.py:154} INFO - Started process (PID=92914) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:32:32,749] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:32:32,751] {logging_mixin.py:112} INFO - [2021-02-17 01:32:32,751] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:32:32,763] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:32:32,798] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.063 seconds
+[2021-02-17 01:34:47,431] {scheduler_job.py:154} INFO - Started process (PID=92949) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:34:52,449] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:34:52,451] {logging_mixin.py:112} INFO - [2021-02-17 01:34:52,450] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:34:52,478] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:34:52,523] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.092 seconds
+[2021-02-17 01:37:07,272] {scheduler_job.py:154} INFO - Started process (PID=92990) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:37:12,288] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:37:12,290] {logging_mixin.py:112} INFO - [2021-02-17 01:37:12,289] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:37:12,301] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:37:12,337] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.065 seconds
+[2021-02-17 01:39:27,033] {scheduler_job.py:154} INFO - Started process (PID=93023) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:39:32,056] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:39:32,059] {logging_mixin.py:112} INFO - [2021-02-17 01:39:32,058] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:39:32,071] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:39:32,100] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.068 seconds
+[2021-02-17 01:41:46,724] {scheduler_job.py:154} INFO - Started process (PID=93073) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:41:51,741] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:41:51,744] {logging_mixin.py:112} INFO - [2021-02-17 01:41:51,743] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:41:51,759] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:41:51,820] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.096 seconds
+[2021-02-17 01:44:06,403] {scheduler_job.py:154} INFO - Started process (PID=93118) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:44:11,422] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:44:11,424] {logging_mixin.py:112} INFO - [2021-02-17 01:44:11,423] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:44:11,435] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:44:11,466] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.063 seconds
+[2021-02-17 01:46:26,121] {scheduler_job.py:154} INFO - Started process (PID=93152) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:46:31,143] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:46:31,150] {logging_mixin.py:112} INFO - [2021-02-17 01:46:31,148] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:46:31,165] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:46:31,220] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.099 seconds
+[2021-02-17 01:48:45,740] {scheduler_job.py:154} INFO - Started process (PID=93190) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:48:50,761] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:48:50,763] {logging_mixin.py:112} INFO - [2021-02-17 01:48:50,762] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:48:50,776] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:48:50,811] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.071 seconds
+[2021-02-17 01:51:05,272] {scheduler_job.py:154} INFO - Started process (PID=93235) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:51:10,290] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:51:10,295] {logging_mixin.py:112} INFO - [2021-02-17 01:51:10,293] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:51:10,318] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:51:10,374] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.102 seconds
+[2021-02-17 01:53:24,984] {scheduler_job.py:154} INFO - Started process (PID=93276) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:53:30,004] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:53:30,005] {logging_mixin.py:112} INFO - [2021-02-17 01:53:30,005] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:53:30,027] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:53:30,056] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.073 seconds
+[2021-02-17 01:55:44,642] {scheduler_job.py:154} INFO - Started process (PID=93317) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:55:49,660] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:55:49,662] {logging_mixin.py:112} INFO - [2021-02-17 01:55:49,662] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:55:49,684] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:55:49,723] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.080 seconds
+[2021-02-17 01:58:04,399] {scheduler_job.py:154} INFO - Started process (PID=93356) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:58:09,413] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 01:58:09,415] {logging_mixin.py:112} INFO - [2021-02-17 01:58:09,415] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:58:09,435] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 01:58:09,464] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.065 seconds
+[2021-02-17 02:00:24,001] {scheduler_job.py:154} INFO - Started process (PID=93393) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:00:29,015] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 02:00:29,018] {logging_mixin.py:112} INFO - [2021-02-17 02:00:29,017] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:00:29,035] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:00:29,066] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.065 seconds
+[2021-02-17 02:02:43,703] {scheduler_job.py:154} INFO - Started process (PID=93431) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:02:48,721] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 02:02:48,723] {logging_mixin.py:112} INFO - [2021-02-17 02:02:48,723] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:02:48,736] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:02:48,770] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.068 seconds
+[2021-02-17 02:05:03,283] {scheduler_job.py:154} INFO - Started process (PID=93464) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:05:08,297] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 02:05:08,300] {logging_mixin.py:112} INFO - [2021-02-17 02:05:08,299] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:05:08,318] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:05:08,351] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.069 seconds
+[2021-02-17 02:07:23,176] {scheduler_job.py:154} INFO - Started process (PID=93517) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:07:28,190] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 02:07:28,192] {logging_mixin.py:112} INFO - [2021-02-17 02:07:28,191] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:07:28,205] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:07:28,260] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.084 seconds
+[2021-02-17 02:09:42,744] {scheduler_job.py:154} INFO - Started process (PID=93556) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:09:47,758] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 02:09:47,760] {logging_mixin.py:112} INFO - [2021-02-17 02:09:47,759] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:09:47,785] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:09:47,822] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.078 seconds
+[2021-02-17 02:12:02,314] {scheduler_job.py:154} INFO - Started process (PID=93591) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:12:07,330] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 02:12:07,332] {logging_mixin.py:112} INFO - [2021-02-17 02:12:07,332] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:12:07,351] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:12:07,382] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.068 seconds
+[2021-02-17 02:14:21,946] {scheduler_job.py:154} INFO - Started process (PID=93635) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:14:26,953] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 02:14:26,955] {logging_mixin.py:112} INFO - [2021-02-17 02:14:26,954] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:14:26,969] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:14:27,012] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.066 seconds
+[2021-02-17 02:16:41,714] {scheduler_job.py:154} INFO - Started process (PID=93710) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:16:46,723] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 02:16:46,725] {logging_mixin.py:112} INFO - [2021-02-17 02:16:46,724] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:16:46,737] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:16:46,770] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.056 seconds
+[2021-02-17 02:19:01,178] {scheduler_job.py:154} INFO - Started process (PID=93820) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:19:06,194] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 02:19:06,196] {logging_mixin.py:112} INFO - [2021-02-17 02:19:06,195] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:19:06,209] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:19:06,260] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.082 seconds
+[2021-02-17 02:21:20,918] {scheduler_job.py:154} INFO - Started process (PID=93935) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:21:25,933] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 02:21:25,935] {logging_mixin.py:112} INFO - [2021-02-17 02:21:25,934] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:21:25,947] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:21:25,989] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.072 seconds
+[2021-02-17 02:23:40,292] {scheduler_job.py:154} INFO - Started process (PID=94007) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:23:45,311] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 02:23:45,313] {logging_mixin.py:112} INFO - [2021-02-17 02:23:45,312] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:23:45,334] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:23:45,371] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.079 seconds
+[2021-02-17 02:25:59,932] {scheduler_job.py:154} INFO - Started process (PID=94052) to work on /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:26:04,951] {scheduler_job.py:1562} INFO - Processing file /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py for tasks to queue
+[2021-02-17 02:26:04,953] {logging_mixin.py:112} INFO - [2021-02-17 02:26:04,952] {dagbag.py:396} INFO - Filling up the DagBag from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:26:04,984] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_sample_dag']) retrieved from /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py
+[2021-02-17 02:26:05,013] {scheduler_job.py:162} INFO - Processing /Users/maxim/PycharmProjects/airflow/dags/my_dag_2.py took 5.081 seconds
